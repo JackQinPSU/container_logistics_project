@@ -1,0 +1,801 @@
+equipment_id,equipment_type,size,pickup_location,return_location,contract_free_days,actual_dwell_days,daily_rate_usd,customer_id,pickup_date,return_date,status
+CSCU2867825,Dry Van,45ft,Port of Houston,Port of Savannah,7,6,127.91,CUST-0007,2024-12-12,2024-12-18,open
+CSCU2458591,Tank,40ft,Port of Los Angeles,Port of Los Angeles,5,42,143.73,CUST-0033,2024-11-04,2024-12-16,open
+CSCU8038374,Reefer,40ft,Port of Miami,Port of Houston,5,4,251.76,CUST-0011,2024-12-23,2024-12-27,open
+CSCU3608513,Reefer,40ft,Port of Long Beach,Port of Long Beach,14,14,119.34,CUST-0055,2024-06-25,2024-07-09,open
+CSCU1728977,Open Top,45ft,Port of Long Beach,Port of Charleston,5,4,210.41,CUST-0054,2024-11-17,2024-11-21,open
+CSCU4226067,Dry Van,20ft,Port of Savannah,Port of Houston,5,5,271.06,CUST-0056,2024-02-21,2024-02-26,open
+CSCU7120868,Reefer,40ft,Port of Seattle,Port of Savannah,10,21,240.36,CUST-0044,2024-11-27,2024-12-18,open
+CSCU3871230,Tank,45ft,Port of Savannah,Port of New York,14,5,175.89,CUST-0060,2024-11-23,2024-11-28,open
+CSCU6440561,Dry Van,20ft,Port of Los Angeles,Port of Seattle,14,7,153.55,CUST-0014,2024-10-17,2024-10-24,open
+CSCU4567281,Open Top,40ft,Port of Baltimore,Port of New York,10,8,127.93,CUST-0048,2024-10-14,2024-10-22,open
+CSCU7700828,Flat Rack,20ft,Port of New York,Port of Oakland,14,17,118.18,CUST-0004,2024-02-26,2024-03-14,open
+CSCU8082668,Tank,20ft,Port of Charleston,Port of Charleston,14,3,205.82,CUST-0036,2024-01-06,2024-01-09,open
+CSCU5476583,Flat Rack,20ft,Port of Houston,Port of Charleston,7,3,190.74,CUST-0047,2024-05-14,2024-05-17,open
+CSCU9517485,Dry Van,45ft,Port of Houston,Port of Oakland,7,6,130.57,CUST-0049,2024-03-23,2024-03-29,open
+CSCU1009594,Tank,40ft,Port of Baltimore,Port of Los Angeles,5,3,285.82,CUST-0057,2024-06-06,2024-06-09,open
+CSCU2321324,Dry Van,45ft,Port of Baltimore,Port of Long Beach,7,16,125.68,CUST-0031,2024-10-08,2024-10-24,open
+CSCU8099076,Reefer,45ft,Port of Savannah,Port of Houston,14,10,299.03,CUST-0042,2024-07-10,2024-07-20,open
+CSCU8574680,Dry Van,20ft,Port of Savannah,Port of Long Beach,10,2,104.21,CUST-0036,2024-04-27,2024-04-29,open
+CSCU2191066,Dry Van,20ft,Port of Long Beach,Port of Los Angeles,10,5,114.17,CUST-0016,2024-05-22,2024-05-27,open
+CSCU3219824,Tank,45ft,Port of Baltimore,Port of Savannah,14,21,261.5,CUST-0013,2024-02-18,2024-03-10,open
+CSCU6944126,Open Top,40ft,Port of Baltimore,Port of Los Angeles,5,2,112.12,CUST-0047,2024-06-22,2024-06-24,open
+CSCU5171761,Reefer,20ft,Port of Oakland,Port of Baltimore,7,2,184.38,CUST-0018,2024-08-24,2024-08-26,open
+CSCU8434500,Tank,20ft,Port of Los Angeles,Port of Oakland,5,13,293.8,CUST-0060,2024-05-01,2024-05-14,open
+CSCU9075854,Reefer,40ft,Port of Los Angeles,Port of New York,14,14,100.43,CUST-0025,2024-05-15,2024-05-29,open
+CSCU8633773,Flat Rack,40ft,Port of Oakland,Port of Baltimore,7,6,137.98,CUST-0014,2024-01-30,2024-02-05,open
+CSCU2022698,Flat Rack,20ft,Port of Los Angeles,Port of Miami,14,23,200.57,CUST-0055,2024-09-28,2024-10-21,open
+CSCU2344047,Reefer,20ft,Port of Miami,Port of Long Beach,7,6,180.76,CUST-0057,2024-10-18,2024-10-24,open
+CSCU1666754,Tank,20ft,Port of Charleston,Port of Miami,10,5,286.94,CUST-0014,2024-12-08,2024-12-13,open
+CSCU5456272,Open Top,20ft,Port of Houston,Port of Baltimore,10,69,285.8,CUST-0060,2024-02-07,2024-04-16,open
+CSCU2677407,Dry Van,45ft,Port of Savannah,Port of Oakland,10,7,126.49,CUST-0023,2024-02-05,2024-02-12,open
+CSCU5781295,Reefer,40ft,Port of Oakland,Port of Houston,5,2,233.57,CUST-0036,2024-06-02,2024-06-04,open
+CSCU3253031,Flat Rack,20ft,Port of Long Beach,Port of Oakland,7,3,154.47,CUST-0039,2024-04-17,2024-04-20,open
+CSCU5428914,Tank,40ft,Port of Houston,Port of Los Angeles,5,51,226.86,CUST-0054,2024-05-21,2024-07-11,open
+CSCU3194789,Flat Rack,20ft,Port of Baltimore,Port of Oakland,14,13,212.18,CUST-0008,2024-02-08,2024-02-21,open
+CSCU3500715,Tank,20ft,Port of Seattle,Port of Miami,7,2,185.96,CUST-0003,2024-06-06,2024-06-08,open
+CSCU7003042,Reefer,45ft,Port of Savannah,Port of Long Beach,10,4,256.02,CUST-0057,2024-07-27,2024-07-31,open
+CSCU4971793,Reefer,20ft,Port of Charleston,Port of Los Angeles,7,7,247.31,CUST-0022,2024-07-29,2024-08-05,open
+CSCU5163555,Flat Rack,20ft,Port of Long Beach,Port of Charleston,5,5,271.72,CUST-0015,2024-04-12,2024-04-17,open
+CSCU6866294,Flat Rack,20ft,Port of Savannah,Port of Los Angeles,7,4,179.69,CUST-0018,2024-02-05,2024-02-09,open
+CSCU6891254,Tank,40ft,Port of Oakland,Port of Seattle,5,4,123.07,CUST-0017,2024-04-01,2024-04-05,open
+CSCU1641849,Dry Van,45ft,Port of Charleston,Port of Seattle,10,5,187.28,CUST-0033,2024-02-29,2024-03-05,open
+CSCU5273534,Dry Van,45ft,Port of Charleston,Port of Los Angeles,7,6,172.84,CUST-0005,2024-12-06,2024-12-12,open
+CSCU6266630,Dry Van,45ft,Port of Houston,Port of Oakland,10,10,233.38,CUST-0021,2024-07-25,2024-08-04,open
+CSCU3135534,Reefer,40ft,Port of Charleston,Port of New York,10,5,181.22,CUST-0054,2024-01-01,2024-01-06,open
+CSCU8212326,Tank,45ft,Port of Seattle,Port of Baltimore,14,14,188.43,CUST-0014,2024-09-18,2024-10-02,open
+CSCU3846949,Dry Van,40ft,Port of Oakland,Port of Miami,10,5,118.68,CUST-0049,2024-04-30,2024-05-05,open
+CSCU4340845,Reefer,20ft,Port of Los Angeles,Port of Savannah,14,12,222.25,CUST-0050,2024-02-07,2024-02-19,open
+CSCU4262081,Open Top,40ft,Port of Charleston,Port of Savannah,7,3,231.21,CUST-0001,2024-02-24,2024-02-27,open
+CSCU3950888,Tank,40ft,Port of Los Angeles,Port of Oakland,7,15,283.49,CUST-0008,2024-08-21,2024-09-05,open
+CSCU9910914,Tank,45ft,Port of Seattle,Port of Baltimore,14,13,266.11,CUST-0036,2024-08-16,2024-08-29,open
+CSCU8963715,Open Top,40ft,Port of Savannah,Port of Houston,14,19,225.35,CUST-0018,2024-08-13,2024-09-01,open
+CSCU4934149,Flat Rack,40ft,Port of Seattle,Port of Oakland,5,3,127.67,CUST-0015,2024-07-15,2024-07-18,open
+CSCU2077581,Open Top,40ft,Port of Seattle,Port of Oakland,14,14,183.15,CUST-0014,2024-08-03,2024-08-17,open
+CSCU1327691,Tank,40ft,Port of Baltimore,Port of Los Angeles,10,10,159.72,CUST-0025,2024-08-02,2024-08-12,open
+CSCU4700025,Open Top,20ft,Port of Houston,Port of Charleston,14,8,105.8,CUST-0022,2024-12-08,2024-12-16,open
+CSCU3768991,Open Top,20ft,Port of Miami,Port of Oakland,5,2,281.39,CUST-0038,2024-10-15,2024-10-17,open
+CSCU8190929,Reefer,40ft,Port of New York,Port of Los Angeles,10,8,175.82,CUST-0014,2024-08-20,2024-08-28,open
+CSCU5668371,Open Top,40ft,Port of Long Beach,Port of Baltimore,5,2,249.8,CUST-0004,2024-06-28,2024-06-30,open
+CSCU1675419,Dry Van,20ft,Port of Savannah,Port of Los Angeles,7,11,147.71,CUST-0031,2024-12-08,2024-12-19,open
+CSCU8801975,Flat Rack,40ft,Port of New York,Port of Miami,5,6,255.56,CUST-0011,2024-06-08,2024-06-14,open
+CSCU6233774,Tank,45ft,Port of Charleston,Port of Charleston,7,7,115.2,CUST-0045,2024-11-17,2024-11-24,open
+CSCU6059717,Tank,20ft,Port of Miami,Port of Los Angeles,10,21,206.55,CUST-0043,2024-07-08,2024-07-29,open
+CSCU6724909,Dry Van,40ft,Port of Baltimore,Port of Long Beach,14,8,292.16,CUST-0041,2024-08-23,2024-08-31,open
+CSCU3955087,Tank,45ft,Port of Houston,Port of Miami,14,5,192.97,CUST-0053,2024-10-30,2024-11-04,open
+CSCU2453962,Flat Rack,40ft,Port of Savannah,Port of Baltimore,14,18,167.28,CUST-0032,2024-06-15,2024-07-03,open
+CSCU6952975,Flat Rack,40ft,Port of Houston,Port of Miami,10,22,211.16,CUST-0034,2024-04-07,2024-04-29,open
+CSCU7818732,Open Top,45ft,Port of Savannah,Port of Baltimore,14,8,189.63,CUST-0002,2024-02-17,2024-02-25,open
+CSCU5081983,Flat Rack,45ft,Port of Miami,Port of Seattle,14,10,210.69,CUST-0023,2024-08-05,2024-08-15,open
+CSCU6549757,Flat Rack,45ft,Port of Baltimore,Port of Houston,10,10,150.28,CUST-0008,2024-04-08,2024-04-18,open
+CSCU4106298,Reefer,20ft,Port of Baltimore,Port of Houston,10,7,296.1,CUST-0054,2024-04-09,2024-04-16,open
+CSCU4010529,Flat Rack,20ft,Port of Oakland,Port of New York,10,4,109.1,CUST-0004,2024-10-10,2024-10-14,open
+CSCU9235577,Dry Van,20ft,Port of Miami,Port of Houston,14,6,195.74,CUST-0022,2024-04-04,2024-04-10,open
+CSCU9014965,Dry Van,20ft,Port of Charleston,Port of Baltimore,5,18,215.4,CUST-0044,2024-01-28,2024-02-15,open
+CSCU6097514,Dry Van,20ft,Port of Long Beach,Port of Oakland,14,10,221.26,CUST-0051,2024-11-12,2024-11-22,open
+CSCU7381684,Open Top,40ft,Port of Houston,Port of Miami,14,13,161.08,CUST-0040,2024-01-31,2024-02-13,open
+CSCU2664863,Reefer,45ft,Port of Savannah,Port of Houston,5,6,131.41,CUST-0012,2024-10-09,2024-10-15,open
+CSCU7853787,Open Top,45ft,Port of Miami,Port of Baltimore,10,9,106.53,CUST-0019,2024-12-27,2025-01-05,open
+CSCU2194198,Reefer,40ft,Port of Miami,Port of Savannah,14,19,122.96,CUST-0015,2024-11-27,2024-12-16,open
+CSCU3386328,Dry Van,20ft,Port of New York,Port of Houston,10,8,187.83,CUST-0030,2024-12-18,2024-12-26,open
+CSCU5567533,Tank,45ft,Port of Baltimore,Port of Baltimore,5,4,219.61,CUST-0057,2024-08-09,2024-08-13,open
+CSCU1433940,Dry Van,20ft,Port of Miami,Port of Miami,5,3,299.91,CUST-0044,2024-05-17,2024-05-20,open
+CSCU8893693,Tank,45ft,Port of Baltimore,Port of Houston,7,2,299.39,CUST-0028,2024-11-21,2024-11-23,open
+CSCU8885465,Flat Rack,40ft,Port of Seattle,Port of Seattle,5,4,271.55,CUST-0022,2024-07-29,2024-08-02,open
+CSCU7718473,Tank,20ft,Port of Baltimore,Port of Long Beach,10,2,150.48,CUST-0008,2024-07-25,2024-07-27,open
+CSCU8750676,Open Top,20ft,Port of Savannah,Port of Oakland,10,2,224.53,CUST-0032,2024-11-16,2024-11-18,open
+CSCU4415140,Flat Rack,45ft,Port of New York,Port of Houston,14,70,276.17,CUST-0032,2024-03-03,2024-05-12,open
+CSCU5014745,Reefer,40ft,Port of Oakland,Port of Los Angeles,14,3,118.64,CUST-0054,2024-02-28,2024-03-02,open
+CSCU3583206,Open Top,45ft,Port of Houston,Port of Oakland,10,10,183.1,CUST-0031,2024-08-29,2024-09-08,open
+CSCU3426689,Open Top,20ft,Port of Miami,Port of Oakland,7,6,272.81,CUST-0018,2024-07-31,2024-08-06,open
+CSCU5482413,Dry Van,40ft,Port of Houston,Port of Miami,14,7,273.05,CUST-0029,2024-10-02,2024-10-09,open
+CSCU7328534,Open Top,40ft,Port of Savannah,Port of Savannah,14,60,146.71,CUST-0050,2024-07-29,2024-09-27,open
+CSCU7395997,Open Top,45ft,Port of New York,Port of Baltimore,5,5,125.25,CUST-0038,2024-06-18,2024-06-23,open
+CSCU2672884,Tank,40ft,Port of Los Angeles,Port of New York,14,6,274.19,CUST-0010,2024-02-08,2024-02-14,open
+CSCU6680114,Tank,45ft,Port of Charleston,Port of Long Beach,10,7,270.47,CUST-0055,2024-09-30,2024-10-07,open
+CSCU9186400,Tank,20ft,Port of Miami,Port of Long Beach,7,7,226.23,CUST-0059,2024-05-27,2024-06-03,open
+CSCU2516313,Open Top,20ft,Port of Long Beach,Port of Baltimore,7,33,238.8,CUST-0058,2024-01-15,2024-02-17,open
+CSCU5921894,Flat Rack,40ft,Port of Charleston,Port of New York,7,3,206.23,CUST-0037,2024-12-15,2024-12-18,open
+CSCU3937176,Dry Van,45ft,Port of Charleston,Port of Miami,7,7,199.53,CUST-0038,2024-03-14,2024-03-21,open
+CSCU5261032,Open Top,40ft,Port of Los Angeles,Port of Baltimore,10,7,235.52,CUST-0011,2024-02-07,2024-02-14,open
+CSCU6018975,Open Top,45ft,Port of Houston,Port of Baltimore,10,17,139.84,CUST-0025,2024-09-04,2024-09-21,open
+CSCU7022335,Tank,40ft,Port of Houston,Port of Los Angeles,14,2,154.9,CUST-0037,2024-12-17,2024-12-19,open
+CSCU9333700,Flat Rack,20ft,Port of Miami,Port of Seattle,7,7,227.32,CUST-0040,2024-05-08,2024-05-15,open
+CSCU3294774,Dry Van,45ft,Port of Los Angeles,Port of Houston,14,19,106.67,CUST-0024,2024-03-08,2024-03-27,open
+CSCU6481437,Open Top,20ft,Port of Savannah,Port of New York,10,6,206.17,CUST-0059,2024-05-19,2024-05-25,open
+CSCU9084065,Flat Rack,45ft,Port of Seattle,Port of Long Beach,14,13,292.58,CUST-0010,2024-04-25,2024-05-08,open
+CSCU7667458,Tank,40ft,Port of Long Beach,Port of Charleston,5,4,152.89,CUST-0008,2024-08-20,2024-08-24,open
+CSCU7392547,Flat Rack,20ft,Port of Savannah,Port of Baltimore,5,3,223.91,CUST-0036,2024-06-16,2024-06-19,open
+CSCU2060605,Open Top,45ft,Port of Houston,Port of Charleston,5,2,127.96,CUST-0003,2024-06-04,2024-06-06,open
+CSCU2630611,Reefer,45ft,Port of New York,Port of Charleston,14,8,174.2,CUST-0048,2024-12-22,2024-12-30,open
+CSCU3592464,Open Top,45ft,Port of Long Beach,Port of Baltimore,14,5,287.81,CUST-0018,2024-01-17,2024-01-22,open
+CSCU8438733,Open Top,20ft,Port of Seattle,Port of Long Beach,10,15,208.89,CUST-0042,2024-07-02,2024-07-17,open
+CSCU4184459,Dry Van,40ft,Port of Long Beach,Port of Savannah,5,3,110.12,CUST-0022,2024-05-04,2024-05-07,open
+CSCU2151087,Tank,20ft,Port of Miami,Port of Savannah,7,39,165.71,CUST-0010,2024-11-01,2024-12-10,open
+CSCU3180906,Tank,40ft,Port of New York,Port of Long Beach,5,2,126.36,CUST-0023,2024-05-01,2024-05-03,open
+CSCU3923366,Flat Rack,20ft,Port of New York,Port of Charleston,5,2,249.13,CUST-0031,2024-08-17,2024-08-19,open
+CSCU8583392,Tank,20ft,Port of Miami,Port of Los Angeles,10,8,191.61,CUST-0002,2024-02-01,2024-02-09,open
+CSCU8151684,Dry Van,40ft,Port of Baltimore,Port of Long Beach,5,15,164.42,CUST-0010,2024-02-03,2024-02-18,open
+CSCU6455706,Open Top,45ft,Port of Oakland,Port of Houston,14,3,201.11,CUST-0028,2024-02-20,2024-02-23,open
+CSCU4607488,Open Top,40ft,Port of Savannah,Port of Charleston,10,7,265.48,CUST-0026,2024-07-31,2024-08-07,open
+CSCU8159911,Flat Rack,45ft,Port of Houston,Port of Seattle,7,9,237.36,CUST-0031,2024-02-04,2024-02-13,open
+CSCU2564141,Open Top,20ft,Port of Seattle,Port of New York,5,2,217.29,CUST-0036,2024-10-14,2024-10-16,open
+CSCU7892225,Flat Rack,45ft,Port of Charleston,Port of Los Angeles,10,5,220.08,CUST-0023,2024-02-23,2024-02-28,open
+CSCU3595941,Open Top,20ft,Port of Long Beach,Port of Seattle,10,8,122.98,CUST-0018,2024-10-20,2024-10-28,open
+CSCU1440466,Tank,45ft,Port of Houston,Port of Los Angeles,7,4,154.65,CUST-0049,2024-06-07,2024-06-11,open
+CSCU1102438,Reefer,20ft,Port of Miami,Port of Charleston,5,14,128.37,CUST-0041,2024-01-16,2024-01-30,open
+CSCU4609330,Open Top,40ft,Port of Baltimore,Port of Seattle,7,6,174.01,CUST-0047,2024-06-15,2024-06-21,open
+CSCU2425342,Dry Van,20ft,Port of New York,Port of Miami,5,5,234.79,CUST-0018,2024-08-14,2024-08-19,open
+CSCU8416270,Open Top,40ft,Port of Savannah,Port of Oakland,5,5,169.03,CUST-0008,2024-05-25,2024-05-30,open
+CSCU9840487,Flat Rack,20ft,Port of Savannah,Port of Charleston,5,4,101.54,CUST-0020,2024-04-18,2024-04-22,open
+CSCU5856117,Flat Rack,20ft,Port of Los Angeles,Port of Baltimore,14,10,135.14,CUST-0025,2024-09-29,2024-10-09,open
+CSCU6941939,Dry Van,40ft,Port of Los Angeles,Port of Charleston,5,5,191.95,CUST-0005,2024-06-09,2024-06-14,open
+CSCU8007741,Flat Rack,20ft,Port of Charleston,Port of Los Angeles,10,7,134.37,CUST-0040,2024-08-23,2024-08-30,open
+CSCU2478574,Open Top,20ft,Port of Savannah,Port of Charleston,14,5,204.79,CUST-0026,2024-06-07,2024-06-12,open
+CSCU6587964,Reefer,20ft,Port of Oakland,Port of Long Beach,7,7,281.18,CUST-0023,2024-06-28,2024-07-05,open
+CSCU3477824,Reefer,20ft,Port of New York,Port of Houston,7,20,134.7,CUST-0010,2024-12-01,2024-12-21,open
+CSCU9289908,Open Top,45ft,Port of Miami,Port of Baltimore,10,12,272.85,CUST-0041,2024-06-10,2024-06-22,open
+CSCU8867190,Open Top,45ft,Port of Houston,Port of Houston,5,2,170.39,CUST-0005,2024-06-07,2024-06-09,open
+CSCU1954456,Flat Rack,40ft,Port of Long Beach,Port of Long Beach,14,14,192.54,CUST-0036,2024-01-22,2024-02-05,open
+CSCU4158134,Flat Rack,45ft,Port of Baltimore,Port of Oakland,7,4,291.54,CUST-0029,2024-02-22,2024-02-26,open
+CSCU2414808,Tank,45ft,Port of New York,Port of Los Angeles,7,3,241.52,CUST-0029,2024-09-25,2024-09-28,open
+CSCU7105194,Flat Rack,40ft,Port of Charleston,Port of Charleston,10,3,235.78,CUST-0004,2024-11-19,2024-11-22,open
+CSCU6531293,Dry Van,45ft,Port of Charleston,Port of Houston,10,7,244.75,CUST-0043,2024-11-04,2024-11-11,open
+CSCU2367376,Tank,45ft,Port of New York,Port of Seattle,10,3,293.54,CUST-0045,2024-12-05,2024-12-08,open
+CSCU6193922,Tank,40ft,Port of Seattle,Port of New York,5,4,229.2,CUST-0028,2024-09-17,2024-09-21,open
+CSCU6181912,Reefer,20ft,Port of Seattle,Port of Baltimore,7,21,145.31,CUST-0009,2024-03-20,2024-04-10,open
+CSCU2696860,Tank,45ft,Port of Oakland,Port of Los Angeles,10,4,275.28,CUST-0040,2024-03-08,2024-03-12,open
+CSCU3722056,Reefer,45ft,Port of Miami,Port of New York,14,9,108.74,CUST-0024,2024-12-12,2024-12-21,open
+CSCU5780297,Open Top,20ft,Port of Oakland,Port of Savannah,10,5,293.12,CUST-0051,2024-08-28,2024-09-02,open
+CSCU7171347,Tank,40ft,Port of Baltimore,Port of Houston,14,14,200.58,CUST-0027,2024-03-23,2024-04-06,open
+CSCU3321942,Flat Rack,20ft,Port of Baltimore,Port of Seattle,5,3,242.28,CUST-0034,2024-03-04,2024-03-07,open
+CSCU5576678,Open Top,45ft,Port of New York,Port of Charleston,5,2,289.28,CUST-0015,2024-08-18,2024-08-20,open
+CSCU7960815,Dry Van,40ft,Port of Oakland,Port of Seattle,7,4,177.23,CUST-0006,2024-07-10,2024-07-14,open
+CSCU2662338,Flat Rack,20ft,Port of New York,Port of Los Angeles,10,9,283.48,CUST-0031,2024-12-22,2024-12-31,open
+CSCU8526283,Tank,20ft,Port of Long Beach,Port of Los Angeles,10,10,143.13,CUST-0010,2024-10-07,2024-10-17,open
+CSCU8101036,Dry Van,40ft,Port of Savannah,Port of Houston,5,5,109.55,CUST-0027,2024-11-23,2024-11-28,open
+CSCU2053729,Dry Van,40ft,Port of Miami,Port of Oakland,5,4,226.39,CUST-0037,2024-05-03,2024-05-07,open
+CSCU8201433,Dry Van,45ft,Port of Seattle,Port of Savannah,14,7,137.46,CUST-0043,2024-02-13,2024-02-20,open
+CSCU2135470,Tank,45ft,Port of Oakland,Port of Oakland,5,4,178.09,CUST-0031,2024-01-23,2024-01-27,open
+CSCU5255545,Dry Van,40ft,Port of Long Beach,Port of Seattle,7,7,246.59,CUST-0041,2024-02-23,2024-03-01,open
+CSCU6578736,Reefer,20ft,Port of Seattle,Port of Oakland,10,9,262.7,CUST-0012,2024-12-16,2024-12-25,open
+CSCU4058117,Reefer,20ft,Port of Baltimore,Port of Los Angeles,10,7,140.32,CUST-0051,2024-04-12,2024-04-19,open
+CSCU6202210,Tank,40ft,Port of Oakland,Port of Baltimore,10,2,107.32,CUST-0042,2024-04-07,2024-04-09,open
+CSCU6568772,Flat Rack,20ft,Port of Seattle,Port of Charleston,14,4,248.66,CUST-0058,2024-07-16,2024-07-20,open
+CSCU9324908,Open Top,40ft,Port of Oakland,Port of Houston,5,3,245.42,CUST-0006,2024-08-08,2024-08-11,open
+CSCU5928582,Flat Rack,20ft,Port of Long Beach,Port of Seattle,10,18,161.3,CUST-0039,2024-08-06,2024-08-24,open
+CSCU6897979,Open Top,20ft,Port of Seattle,Port of Miami,14,25,154.91,CUST-0051,2024-01-30,2024-02-24,open
+CSCU7815076,Flat Rack,45ft,Port of New York,Port of Los Angeles,7,34,269.73,CUST-0044,2024-08-12,2024-09-15,open
+CSCU4959345,Flat Rack,40ft,Port of Charleston,Port of Miami,5,4,221.02,CUST-0044,2024-08-18,2024-08-22,open
+CSCU8448065,Dry Van,45ft,Port of New York,Port of Oakland,10,3,179.61,CUST-0042,2024-05-22,2024-05-25,open
+CSCU1434753,Reefer,40ft,Port of Oakland,Port of Charleston,5,4,152.36,CUST-0017,2024-12-26,2024-12-30,open
+CSCU9240971,Reefer,20ft,Port of New York,Port of Long Beach,14,14,134.53,CUST-0046,2024-08-15,2024-08-29,open
+CSCU6361793,Flat Rack,45ft,Port of Long Beach,Port of Oakland,10,4,278.27,CUST-0055,2024-03-21,2024-03-25,open
+CSCU7064832,Tank,20ft,Port of Long Beach,Port of Savannah,7,6,147.35,CUST-0032,2024-01-14,2024-01-20,open
+CSCU7189302,Open Top,45ft,Port of New York,Port of Miami,5,5,113.15,CUST-0026,2024-09-02,2024-09-07,open
+CSCU2237331,Reefer,40ft,Port of Long Beach,Port of Baltimore,14,14,236.02,CUST-0023,2024-03-06,2024-03-20,open
+CSCU4052834,Reefer,40ft,Port of Oakland,Port of Los Angeles,5,20,203.62,CUST-0020,2024-03-25,2024-04-14,open
+CSCU4782763,Flat Rack,45ft,Port of Houston,Port of Long Beach,10,15,139.26,CUST-0036,2024-05-20,2024-06-04,open
+CSCU9950276,Dry Van,45ft,Port of New York,Port of Miami,7,6,134.24,CUST-0040,2024-11-05,2024-11-11,open
+CSCU1691125,Dry Van,20ft,Port of Los Angeles,Port of Miami,10,2,230.23,CUST-0050,2024-10-19,2024-10-21,open
+CSCU9355692,Tank,40ft,Port of Houston,Port of Baltimore,7,2,260.94,CUST-0044,2024-07-26,2024-07-28,open
+CSCU2005173,Reefer,40ft,Port of Charleston,Port of Baltimore,14,13,140.8,CUST-0039,2024-03-14,2024-03-27,open
+CSCU6357240,Flat Rack,40ft,Port of New York,Port of Seattle,5,3,163.82,CUST-0030,2024-03-03,2024-03-06,open
+CSCU3363534,Dry Van,20ft,Port of Houston,Port of Charleston,14,11,149.65,CUST-0056,2024-03-22,2024-04-02,open
+CSCU6246485,Reefer,20ft,Port of Baltimore,Port of Oakland,14,55,199.75,CUST-0020,2024-09-11,2024-11-05,open
+CSCU9479950,Open Top,20ft,Port of Savannah,Port of Miami,10,9,109.73,CUST-0019,2024-09-10,2024-09-19,open
+CSCU5794062,Tank,20ft,Port of Long Beach,Port of Charleston,7,4,276.49,CUST-0047,2024-07-06,2024-07-10,open
+CSCU1759041,Open Top,20ft,Port of Miami,Port of Oakland,7,5,172.5,CUST-0019,2024-02-07,2024-02-12,open
+CSCU5692934,Tank,45ft,Port of Miami,Port of Long Beach,7,4,295.02,CUST-0026,2024-07-10,2024-07-14,open
+CSCU7133857,Reefer,20ft,Port of Miami,Port of Oakland,14,20,200.02,CUST-0003,2024-01-20,2024-02-09,open
+CSCU8948107,Tank,40ft,Port of New York,Port of Miami,7,17,165.59,CUST-0040,2024-06-12,2024-06-29,open
+CSCU6020319,Tank,40ft,Port of Oakland,Port of Oakland,14,7,241.75,CUST-0020,2024-08-31,2024-09-07,open
+CSCU6557278,Dry Van,40ft,Port of Miami,Port of Houston,5,3,219.38,CUST-0017,2024-12-01,2024-12-04,open
+CSCU1861596,Tank,40ft,Port of New York,Port of Oakland,14,37,129.56,CUST-0044,2024-05-04,2024-06-10,open
+CSCU4200829,Dry Van,40ft,Port of Seattle,Port of Charleston,7,6,182.59,CUST-0014,2024-07-29,2024-08-04,open
+CSCU8912226,Dry Van,45ft,Port of New York,Port of Oakland,7,4,212.18,CUST-0043,2024-09-01,2024-09-05,open
+CSCU3905518,Open Top,45ft,Port of Seattle,Port of Oakland,10,6,235.17,CUST-0056,2024-12-14,2024-12-20,open
+CSCU9123194,Reefer,20ft,Port of Houston,Port of Oakland,10,9,144.97,CUST-0020,2024-05-27,2024-06-05,open
+CSCU6319061,Open Top,40ft,Port of Oakland,Port of Houston,10,8,124.37,CUST-0044,2024-10-05,2024-10-13,open
+CSCU6790398,Reefer,40ft,Port of Los Angeles,Port of Houston,5,5,169.27,CUST-0029,2024-12-01,2024-12-06,open
+CSCU4590102,Reefer,45ft,Port of Houston,Port of Oakland,10,2,127.45,CUST-0040,2024-10-27,2024-10-29,open
+CSCU9909397,Reefer,45ft,Port of Savannah,Port of Los Angeles,5,18,182.66,CUST-0046,2024-08-29,2024-09-16,open
+CSCU3306314,Dry Van,45ft,Port of New York,Port of Charleston,14,12,195.49,CUST-0013,2024-05-27,2024-06-08,open
+CSCU1992583,Dry Van,45ft,Port of Miami,Port of Savannah,5,3,282.65,CUST-0012,2024-08-01,2024-08-04,open
+CSCU1609681,Open Top,40ft,Port of New York,Port of Houston,5,11,101.85,CUST-0037,2024-11-04,2024-11-15,open
+CSCU5774152,Open Top,45ft,Port of Oakland,Port of Oakland,14,5,277.85,CUST-0009,2024-09-15,2024-09-20,open
+CSCU2889899,Flat Rack,20ft,Port of Baltimore,Port of Houston,7,3,102.82,CUST-0022,2024-05-31,2024-06-03,open
+CSCU3944316,Tank,45ft,Port of Charleston,Port of Charleston,10,13,117.35,CUST-0043,2024-02-18,2024-03-02,open
+CSCU9010350,Flat Rack,20ft,Port of Los Angeles,Port of Houston,14,6,147.1,CUST-0049,2024-05-16,2024-05-22,open
+CSCU1191859,Flat Rack,45ft,Port of Seattle,Port of Savannah,5,16,233.56,CUST-0030,2024-06-06,2024-06-22,open
+CSCU9430894,Flat Rack,45ft,Port of Long Beach,Port of Houston,10,9,222.93,CUST-0015,2024-03-09,2024-03-18,open
+CSCU7268384,Open Top,45ft,Port of Oakland,Port of Baltimore,7,2,252.37,CUST-0044,2024-11-01,2024-11-03,open
+CSCU9816538,Open Top,45ft,Port of Seattle,Port of Long Beach,5,3,112.35,CUST-0036,2024-09-15,2024-09-18,open
+CSCU3760475,Flat Rack,45ft,Port of Baltimore,Port of Long Beach,7,5,243.38,CUST-0032,2024-02-16,2024-02-21,open
+CSCU1933413,Open Top,20ft,Port of Oakland,Port of Charleston,14,6,212.78,CUST-0036,2024-08-24,2024-08-30,open
+CSCU1365247,Open Top,40ft,Port of Los Angeles,Port of Savannah,5,6,109.06,CUST-0023,2024-12-24,2024-12-30,open
+CSCU2157949,Open Top,20ft,Port of Houston,Port of Charleston,7,7,253.79,CUST-0050,2024-11-24,2024-12-01,open
+CSCU8052503,Flat Rack,40ft,Port of Baltimore,Port of Charleston,14,28,116.05,CUST-0043,2024-10-03,2024-10-31,open
+CSCU6834610,Dry Van,20ft,Port of Oakland,Port of Charleston,7,4,245.57,CUST-0015,2024-01-02,2024-01-06,open
+CSCU8767916,Tank,40ft,Port of Oakland,Port of Charleston,7,7,149.5,CUST-0023,2024-03-20,2024-03-27,open
+CSCU2893218,Dry Van,45ft,Port of Charleston,Port of Miami,5,5,148.13,CUST-0005,2024-02-21,2024-02-26,open
+CSCU1816653,Reefer,45ft,Port of Los Angeles,Port of Charleston,14,19,146.87,CUST-0014,2024-01-29,2024-02-17,open
+CSCU4928578,Tank,40ft,Port of Miami,Port of Miami,10,10,147.38,CUST-0057,2024-03-14,2024-03-24,open
+CSCU4708481,Open Top,40ft,Port of Houston,Port of Los Angeles,7,4,225.2,CUST-0028,2024-10-11,2024-10-15,open
+CSCU7394713,Tank,40ft,Port of Charleston,Port of Charleston,7,3,159.98,CUST-0012,2024-10-02,2024-10-05,open
+CSCU6045519,Reefer,40ft,Port of Los Angeles,Port of Oakland,14,18,293.56,CUST-0036,2024-09-28,2024-10-16,open
+CSCU5278117,Reefer,40ft,Port of Long Beach,Port of Baltimore,10,17,118.49,CUST-0047,2024-04-07,2024-04-24,open
+CSCU1663497,Dry Van,20ft,Port of Miami,Port of Oakland,7,2,195.88,CUST-0056,2024-06-19,2024-06-21,open
+CSCU4553544,Reefer,45ft,Port of Long Beach,Port of Baltimore,7,3,239.13,CUST-0046,2024-04-14,2024-04-17,open
+CSCU6395804,Flat Rack,40ft,Port of Baltimore,Port of Oakland,10,9,161.68,CUST-0024,2024-09-19,2024-09-28,open
+CSCU2654371,Open Top,40ft,Port of Savannah,Port of Seattle,10,2,182.79,CUST-0037,2024-04-23,2024-04-25,open
+CSCU5375063,Tank,45ft,Port of Miami,Port of Charleston,10,5,130.48,CUST-0022,2024-04-27,2024-05-02,open
+CSCU9376888,Tank,45ft,Port of Seattle,Port of Houston,14,13,293.3,CUST-0042,2024-09-08,2024-09-21,open
+CSCU6908535,Reefer,20ft,Port of Oakland,Port of Baltimore,7,6,283.38,CUST-0035,2024-11-24,2024-11-30,open
+CSCU1567468,Dry Van,45ft,Port of Los Angeles,Port of Los Angeles,14,17,127.5,CUST-0041,2024-04-28,2024-05-15,open
+CSCU1153368,Reefer,45ft,Port of Baltimore,Port of Seattle,5,5,223.57,CUST-0043,2024-11-11,2024-11-16,open
+CSCU1263935,Dry Van,45ft,Port of Oakland,Port of Charleston,5,4,103.35,CUST-0047,2024-05-20,2024-05-24,open
+CSCU1287605,Tank,45ft,Port of Charleston,Port of New York,5,4,283.61,CUST-0034,2024-03-17,2024-03-21,open
+CSCU6946534,Flat Rack,40ft,Port of Long Beach,Port of Seattle,14,12,191.8,CUST-0016,2024-12-22,2025-01-03,open
+CSCU2352527,Dry Van,20ft,Port of Charleston,Port of Charleston,14,40,210.54,CUST-0004,2024-11-22,2025-01-01,open
+CSCU2387242,Open Top,40ft,Port of Seattle,Port of Miami,5,5,278.96,CUST-0059,2024-01-22,2024-01-27,open
+CSCU5548220,Dry Van,20ft,Port of Houston,Port of Oakland,5,43,135.87,CUST-0055,2024-06-10,2024-07-23,open
+CSCU3419132,Open Top,20ft,Port of Houston,Port of New York,7,6,213.34,CUST-0055,2024-07-18,2024-07-24,open
+CSCU6565503,Open Top,45ft,Port of New York,Port of Long Beach,10,7,110.74,CUST-0028,2024-04-28,2024-05-05,open
+CSCU7655572,Flat Rack,20ft,Port of Houston,Port of Baltimore,14,12,145.63,CUST-0036,2024-07-11,2024-07-23,open
+CSCU7376562,Dry Van,45ft,Port of Houston,Port of Savannah,5,3,116.41,CUST-0010,2024-07-13,2024-07-16,open
+CSCU7536772,Flat Rack,40ft,Port of Long Beach,Port of Long Beach,5,2,288.59,CUST-0029,2024-07-03,2024-07-05,open
+CSCU3223098,Dry Van,20ft,Port of Charleston,Port of Baltimore,14,11,120.66,CUST-0006,2024-06-30,2024-07-11,open
+CSCU6443037,Open Top,20ft,Port of Houston,Port of Charleston,14,5,255.83,CUST-0047,2024-10-13,2024-10-18,open
+CSCU9742683,Reefer,45ft,Port of Charleston,Port of New York,7,10,153.78,CUST-0018,2024-09-09,2024-09-19,open
+CSCU8292657,Flat Rack,40ft,Port of Houston,Port of Baltimore,5,3,172.22,CUST-0016,2024-11-16,2024-11-19,open
+CSCU8681643,Dry Van,20ft,Port of Houston,Port of Los Angeles,14,7,166.44,CUST-0040,2024-07-13,2024-07-20,open
+CSCU8385715,Flat Rack,40ft,Port of Miami,Port of New York,10,4,164.13,CUST-0045,2024-04-12,2024-04-16,open
+CSCU7681351,Flat Rack,40ft,Port of Baltimore,Port of Miami,7,6,165.18,CUST-0018,2024-07-20,2024-07-26,open
+CSCU4352088,Tank,45ft,Port of New York,Port of Oakland,5,4,290.6,CUST-0030,2024-12-28,2025-01-01,open
+CSCU2160289,Open Top,45ft,Port of Baltimore,Port of New York,10,8,148.4,CUST-0043,2024-03-19,2024-03-27,open
+CSCU2240929,Open Top,45ft,Port of Baltimore,Port of Miami,14,2,206.87,CUST-0060,2024-12-20,2024-12-22,open
+CSCU7031903,Tank,45ft,Port of Long Beach,Port of Long Beach,7,2,231.52,CUST-0023,2024-03-26,2024-03-28,open
+CSCU7704473,Flat Rack,40ft,Port of Long Beach,Port of Los Angeles,5,3,151.75,CUST-0033,2024-09-22,2024-09-25,open
+CSCU8478923,Flat Rack,40ft,Port of Baltimore,Port of Miami,7,14,168.99,CUST-0002,2024-09-04,2024-09-18,open
+CSCU2440404,Dry Van,45ft,Port of New York,Port of Seattle,10,7,168.61,CUST-0051,2024-04-15,2024-04-22,open
+CSCU8988681,Dry Van,40ft,Port of Baltimore,Port of Seattle,5,19,160.05,CUST-0052,2024-12-29,2025-01-17,open
+CSCU6755892,Dry Van,45ft,Port of New York,Port of Savannah,7,5,210.38,CUST-0022,2024-10-13,2024-10-18,open
+CSCU4889890,Open Top,45ft,Port of New York,Port of New York,14,9,179.12,CUST-0048,2024-11-10,2024-11-19,open
+CSCU8206700,Open Top,20ft,Port of Savannah,Port of Savannah,10,10,250.47,CUST-0052,2024-02-02,2024-02-12,open
+CSCU4136665,Flat Rack,40ft,Port of Savannah,Port of Baltimore,5,4,152.47,CUST-0056,2024-09-07,2024-09-11,open
+CSCU7520284,Tank,40ft,Port of Miami,Port of Long Beach,10,21,170.4,CUST-0030,2024-11-12,2024-12-03,open
+CSCU5990296,Tank,45ft,Port of Long Beach,Port of New York,10,22,123.57,CUST-0020,2024-02-29,2024-03-22,open
+CSCU3371602,Tank,40ft,Port of Charleston,Port of Miami,7,6,214.96,CUST-0028,2024-04-05,2024-04-11,open
+CSCU3906397,Tank,20ft,Port of Baltimore,Port of Houston,7,4,137.42,CUST-0054,2024-08-18,2024-08-22,open
+CSCU1160783,Open Top,20ft,Port of Savannah,Port of Charleston,14,9,181.83,CUST-0032,2024-07-31,2024-08-09,open
+CSCU9199017,Reefer,20ft,Port of Miami,Port of Los Angeles,7,3,158.42,CUST-0018,2024-04-25,2024-04-28,open
+CSCU8672579,Tank,45ft,Port of Baltimore,Port of Oakland,5,4,214.54,CUST-0018,2024-10-05,2024-10-09,open
+CSCU1698108,Open Top,45ft,Port of Savannah,Port of Charleston,5,2,247.2,CUST-0042,2024-05-06,2024-05-08,open
+CSCU8545256,Flat Rack,40ft,Port of Long Beach,Port of Baltimore,5,4,255.13,CUST-0016,2024-04-17,2024-04-21,open
+CSCU8183451,Reefer,45ft,Port of New York,Port of Savannah,7,6,261.09,CUST-0037,2024-06-28,2024-07-04,open
+CSCU3824903,Flat Rack,45ft,Port of Houston,Port of Houston,10,4,290.48,CUST-0033,2024-12-13,2024-12-17,open
+CSCU7905438,Dry Van,40ft,Port of New York,Port of New York,7,7,129.25,CUST-0021,2024-05-06,2024-05-13,open
+CSCU7588425,Open Top,20ft,Port of Miami,Port of Houston,14,14,175.03,CUST-0005,2024-11-20,2024-12-04,open
+CSCU2561871,Open Top,45ft,Port of Houston,Port of Seattle,14,35,290.05,CUST-0021,2024-10-24,2024-11-28,open
+CSCU8691502,Flat Rack,20ft,Port of Oakland,Port of Charleston,7,4,293.63,CUST-0053,2024-04-18,2024-04-22,open
+CSCU5757902,Flat Rack,45ft,Port of Miami,Port of New York,14,2,257.66,CUST-0058,2024-12-15,2024-12-17,open
+CSCU2670586,Open Top,20ft,Port of Long Beach,Port of New York,14,4,191.3,CUST-0028,2024-04-13,2024-04-17,open
+CSCU6064462,Reefer,40ft,Port of Long Beach,Port of Seattle,10,17,116.48,CUST-0043,2024-11-28,2024-12-15,open
+CSCU6125594,Reefer,40ft,Port of Long Beach,Port of Long Beach,5,5,142.68,CUST-0005,2024-03-08,2024-03-13,open
+CSCU1155809,Dry Van,45ft,Port of Seattle,Port of Long Beach,14,3,238.81,CUST-0031,2024-02-06,2024-02-09,open
+CSCU2718442,Dry Van,40ft,Port of Seattle,Port of Houston,7,7,176.54,CUST-0053,2024-03-09,2024-03-16,open
+CSCU3396676,Dry Van,45ft,Port of Miami,Port of Los Angeles,7,3,188.02,CUST-0047,2024-04-19,2024-04-22,open
+CSCU7907345,Tank,45ft,Port of Baltimore,Port of Savannah,5,5,279.32,CUST-0009,2024-03-04,2024-03-09,open
+CSCU6897789,Open Top,40ft,Port of New York,Port of Savannah,10,6,228.92,CUST-0016,2024-10-10,2024-10-16,open
+CSCU1450038,Flat Rack,20ft,Port of Oakland,Port of Miami,7,22,249.57,CUST-0019,2024-11-26,2024-12-18,open
+CSCU5015476,Open Top,40ft,Port of Long Beach,Port of Savannah,14,2,227.62,CUST-0005,2024-09-27,2024-09-29,open
+CSCU7058222,Flat Rack,20ft,Port of Charleston,Port of Miami,14,14,173.08,CUST-0044,2024-03-29,2024-04-12,open
+CSCU2224599,Dry Van,45ft,Port of Long Beach,Port of Los Angeles,10,8,143.15,CUST-0060,2024-01-31,2024-02-08,open
+CSCU9499515,Flat Rack,45ft,Port of Oakland,Port of Charleston,14,11,240.36,CUST-0006,2024-11-23,2024-12-04,open
+CSCU3561552,Flat Rack,20ft,Port of Houston,Port of Long Beach,7,6,294.86,CUST-0010,2024-10-01,2024-10-07,open
+CSCU2109227,Flat Rack,45ft,Port of Charleston,Port of Savannah,5,15,148.9,CUST-0060,2024-08-10,2024-08-25,open
+CSCU1923227,Flat Rack,45ft,Port of New York,Port of Long Beach,5,11,241.58,CUST-0045,2024-01-06,2024-01-17,open
+CSCU9774573,Tank,45ft,Port of Houston,Port of New York,10,3,125.39,CUST-0050,2024-05-17,2024-05-20,open
+CSCU1492516,Flat Rack,40ft,Port of Houston,Port of Oakland,5,13,152.59,CUST-0037,2024-11-17,2024-11-30,open
+CSCU9569497,Flat Rack,20ft,Port of Baltimore,Port of Miami,7,7,173.54,CUST-0017,2024-02-22,2024-02-29,open
+CSCU2934976,Reefer,45ft,Port of Oakland,Port of Los Angeles,5,53,271.74,CUST-0001,2024-05-05,2024-06-27,open
+CSCU7425329,Reefer,20ft,Port of Los Angeles,Port of Oakland,14,7,144.9,CUST-0016,2024-08-01,2024-08-08,open
+CSCU5550953,Dry Van,45ft,Port of Seattle,Port of Long Beach,5,5,135.87,CUST-0052,2024-09-21,2024-09-26,open
+CSCU2156393,Open Top,40ft,Port of Houston,Port of Seattle,5,4,210.62,CUST-0001,2024-07-07,2024-07-11,open
+CSCU5069884,Open Top,40ft,Port of Miami,Port of Baltimore,7,22,246.49,CUST-0035,2024-05-05,2024-05-27,open
+CSCU7879264,Dry Van,20ft,Port of Oakland,Port of Seattle,5,4,290.2,CUST-0001,2024-12-02,2024-12-06,open
+CSCU2743975,Reefer,45ft,Port of Savannah,Port of Charleston,14,2,292.24,CUST-0010,2024-12-30,2025-01-01,open
+CSCU4883465,Tank,40ft,Port of Seattle,Port of Baltimore,5,5,216.15,CUST-0033,2024-03-09,2024-03-14,open
+CSCU2255447,Tank,45ft,Port of Los Angeles,Port of Charleston,7,5,147.35,CUST-0017,2024-06-10,2024-06-15,open
+CSCU6473593,Flat Rack,40ft,Port of Houston,Port of Savannah,5,7,288.71,CUST-0009,2024-10-26,2024-11-02,open
+CSCU3757754,Open Top,40ft,Port of Seattle,Port of Charleston,5,5,207.18,CUST-0050,2024-04-16,2024-04-21,open
+CSCU5446095,Dry Van,20ft,Port of New York,Port of Houston,5,17,143.0,CUST-0055,2024-06-16,2024-07-03,open
+CSCU5164420,Flat Rack,40ft,Port of Oakland,Port of Los Angeles,10,9,152.03,CUST-0012,2024-01-16,2024-01-25,open
+CSCU5191831,Dry Van,40ft,Port of Long Beach,Port of New York,5,19,102.39,CUST-0054,2024-04-23,2024-05-12,open
+CSCU7720647,Flat Rack,45ft,Port of Long Beach,Port of Miami,10,5,283.49,CUST-0005,2024-01-12,2024-01-17,open
+CSCU8439543,Reefer,20ft,Port of Seattle,Port of Long Beach,5,5,288.46,CUST-0004,2024-03-27,2024-04-01,open
+CSCU7626978,Open Top,20ft,Port of Charleston,Port of Charleston,7,5,170.79,CUST-0059,2024-04-05,2024-04-10,open
+CSCU3493621,Dry Van,45ft,Port of Miami,Port of Miami,7,5,229.46,CUST-0032,2024-07-29,2024-08-03,open
+CSCU2023059,Dry Van,40ft,Port of Charleston,Port of New York,14,14,139.89,CUST-0057,2024-09-26,2024-10-10,open
+CSCU1327658,Open Top,45ft,Port of Seattle,Port of Baltimore,14,6,168.81,CUST-0037,2024-09-14,2024-09-20,open
+CSCU4016809,Dry Van,40ft,Port of Miami,Port of Savannah,5,13,279.15,CUST-0050,2024-05-23,2024-06-05,open
+CSCU9882399,Flat Rack,45ft,Port of Savannah,Port of New York,5,2,149.57,CUST-0016,2024-05-16,2024-05-18,open
+CSCU4681115,Tank,40ft,Port of Seattle,Port of New York,7,6,147.31,CUST-0021,2024-12-23,2024-12-29,open
+CSCU1473227,Flat Rack,45ft,Port of Miami,Port of New York,7,3,267.34,CUST-0052,2024-09-09,2024-09-12,open
+CSCU9228157,Dry Van,20ft,Port of Los Angeles,Port of Savannah,7,6,103.99,CUST-0031,2024-01-01,2024-01-07,open
+CSCU4380011,Reefer,40ft,Port of New York,Port of Seattle,5,2,104.38,CUST-0038,2024-12-26,2024-12-28,open
+CSCU9829762,Flat Rack,20ft,Port of Seattle,Port of Charleston,5,5,167.31,CUST-0021,2024-03-10,2024-03-15,open
+CSCU9173859,Flat Rack,20ft,Port of Oakland,Port of Miami,10,6,144.65,CUST-0038,2024-03-30,2024-04-05,open
+CSCU3136551,Reefer,45ft,Port of Los Angeles,Port of Miami,14,68,270.15,CUST-0050,2024-10-17,2024-12-24,open
+CSCU6338793,Tank,20ft,Port of Miami,Port of Long Beach,14,7,128.13,CUST-0048,2024-02-09,2024-02-16,open
+CSCU3816683,Dry Van,45ft,Port of Seattle,Port of Baltimore,5,10,153.04,CUST-0016,2024-12-20,2024-12-30,open
+CSCU2812519,Dry Van,20ft,Port of Charleston,Port of Baltimore,14,8,293.82,CUST-0057,2024-07-30,2024-08-07,open
+CSCU6892681,Tank,40ft,Port of Long Beach,Port of Baltimore,7,4,132.53,CUST-0005,2024-01-18,2024-01-22,open
+CSCU5380995,Dry Van,20ft,Port of Seattle,Port of New York,14,3,132.18,CUST-0005,2024-10-07,2024-10-10,open
+CSCU6669869,Tank,45ft,Port of Baltimore,Port of Los Angeles,14,4,288.49,CUST-0011,2024-11-06,2024-11-10,open
+CSCU1898516,Dry Van,40ft,Port of Savannah,Port of Savannah,14,6,239.44,CUST-0047,2024-10-03,2024-10-09,open
+CSCU5989554,Reefer,20ft,Port of Los Angeles,Port of Charleston,14,6,130.72,CUST-0024,2024-01-02,2024-01-08,open
+CSCU9058573,Reefer,20ft,Port of Los Angeles,Port of Savannah,7,4,227.64,CUST-0006,2024-08-30,2024-09-03,open
+CSCU7668395,Open Top,40ft,Port of Houston,Port of Long Beach,14,9,136.98,CUST-0057,2024-07-14,2024-07-23,open
+CSCU1748547,Flat Rack,40ft,Port of Baltimore,Port of Houston,7,19,267.42,CUST-0037,2024-02-01,2024-02-20,open
+CSCU2622400,Dry Van,45ft,Port of Seattle,Port of Oakland,14,8,294.14,CUST-0038,2024-04-26,2024-05-04,open
+CSCU9767475,Open Top,45ft,Port of Baltimore,Port of Miami,7,7,195.25,CUST-0006,2024-07-21,2024-07-28,open
+CSCU1582647,Tank,45ft,Port of Oakland,Port of Miami,7,10,124.06,CUST-0049,2024-08-17,2024-08-27,open
+CSCU4554926,Reefer,20ft,Port of Los Angeles,Port of Charleston,5,3,297.66,CUST-0028,2024-04-13,2024-04-16,open
+CSCU5326615,Flat Rack,45ft,Port of Long Beach,Port of Long Beach,14,10,211.27,CUST-0036,2024-06-15,2024-06-25,open
+CSCU8686601,Dry Van,45ft,Port of Miami,Port of Miami,14,11,122.5,CUST-0010,2024-03-16,2024-03-27,open
+CSCU2681144,Dry Van,45ft,Port of Long Beach,Port of Houston,10,9,275.58,CUST-0017,2024-07-15,2024-07-24,open
+CSCU1628569,Reefer,40ft,Port of Charleston,Port of New York,14,2,107.76,CUST-0057,2024-06-18,2024-06-20,open
+CSCU8972838,Flat Rack,40ft,Port of Los Angeles,Port of Seattle,10,3,162.19,CUST-0054,2024-09-08,2024-09-11,open
+CSCU4824490,Reefer,40ft,Port of Baltimore,Port of Seattle,10,18,245.76,CUST-0039,2024-11-26,2024-12-14,open
+CSCU4546544,Open Top,45ft,Port of Baltimore,Port of Oakland,10,22,264.2,CUST-0033,2024-03-22,2024-04-13,open
+CSCU9502613,Open Top,20ft,Port of Oakland,Port of Miami,5,3,134.75,CUST-0057,2024-04-12,2024-04-15,open
+CSCU1554840,Open Top,20ft,Port of Seattle,Port of Savannah,10,3,173.67,CUST-0030,2024-09-15,2024-09-18,open
+CSCU1512765,Reefer,40ft,Port of Baltimore,Port of Miami,14,7,135.52,CUST-0056,2024-08-30,2024-09-06,open
+CSCU6775539,Reefer,40ft,Port of Long Beach,Port of Houston,5,3,177.31,CUST-0011,2024-10-19,2024-10-22,open
+CSCU4713654,Reefer,45ft,Port of Savannah,Port of Houston,14,38,202.66,CUST-0056,2024-12-15,2025-01-22,open
+CSCU3905824,Tank,20ft,Port of Savannah,Port of Houston,10,8,242.55,CUST-0046,2024-11-25,2024-12-03,open
+CSCU6850369,Open Top,40ft,Port of Savannah,Port of Baltimore,10,3,235.44,CUST-0053,2024-11-15,2024-11-18,open
+CSCU1123271,Tank,45ft,Port of Seattle,Port of Oakland,10,15,159.7,CUST-0007,2024-09-03,2024-09-18,open
+CSCU6454894,Flat Rack,40ft,Port of Houston,Port of Savannah,7,6,203.46,CUST-0016,2024-01-30,2024-02-05,open
+CSCU7779646,Flat Rack,45ft,Port of New York,Port of Los Angeles,14,13,299.49,CUST-0017,2024-08-02,2024-08-15,open
+CSCU1592554,Tank,45ft,Port of Miami,Port of Savannah,10,9,245.31,CUST-0015,2024-12-17,2024-12-26,open
+CSCU7014583,Tank,40ft,Port of New York,Port of Oakland,7,7,158.76,CUST-0031,2024-03-06,2024-03-13,open
+CSCU4071377,Flat Rack,45ft,Port of Long Beach,Port of Savannah,10,7,144.67,CUST-0056,2024-06-06,2024-06-13,open
+CSCU7235796,Flat Rack,45ft,Port of Houston,Port of Baltimore,5,2,194.11,CUST-0056,2024-11-20,2024-11-22,open
+CSCU8922531,Reefer,45ft,Port of Long Beach,Port of Charleston,10,14,182.62,CUST-0056,2024-03-18,2024-04-01,open
+CSCU6749046,Open Top,45ft,Port of Baltimore,Port of New York,10,4,272.48,CUST-0012,2024-02-11,2024-02-15,open
+CSCU6258215,Dry Van,20ft,Port of Baltimore,Port of Houston,7,5,252.24,CUST-0011,2024-10-22,2024-10-27,open
+CSCU2477088,Reefer,45ft,Port of Charleston,Port of Charleston,14,64,185.81,CUST-0031,2024-07-15,2024-09-17,open
+CSCU4345615,Flat Rack,20ft,Port of Seattle,Port of Oakland,7,3,103.58,CUST-0001,2024-11-16,2024-11-19,open
+CSCU6777230,Flat Rack,20ft,Port of Long Beach,Port of Charleston,10,6,133.4,CUST-0053,2024-01-24,2024-01-30,open
+CSCU8649174,Tank,45ft,Port of Oakland,Port of Seattle,14,9,277.59,CUST-0009,2024-06-24,2024-07-03,open
+CSCU7027229,Reefer,20ft,Port of Charleston,Port of Los Angeles,7,6,144.86,CUST-0009,2024-04-18,2024-04-24,open
+CSCU9466346,Reefer,20ft,Port of Seattle,Port of Los Angeles,14,11,275.31,CUST-0017,2024-09-30,2024-10-11,open
+CSCU1804641,Dry Van,45ft,Port of Los Angeles,Port of Los Angeles,5,5,183.36,CUST-0025,2024-03-04,2024-03-09,open
+CSCU3569046,Reefer,45ft,Port of Los Angeles,Port of Houston,14,11,232.33,CUST-0043,2024-09-23,2024-10-04,open
+CSCU3301222,Open Top,20ft,Port of Oakland,Port of Miami,5,3,156.54,CUST-0051,2024-02-24,2024-02-27,open
+CSCU5412305,Tank,20ft,Port of Seattle,Port of Charleston,10,9,132.07,CUST-0036,2024-09-11,2024-09-20,open
+CSCU6546608,Reefer,20ft,Port of Los Angeles,Port of Long Beach,5,7,267.05,CUST-0043,2024-09-09,2024-09-16,open
+CSCU9584991,Dry Van,45ft,Port of Long Beach,Port of Houston,7,2,191.35,CUST-0019,2024-05-15,2024-05-17,open
+CSCU3931009,Dry Van,40ft,Port of Seattle,Port of Seattle,14,38,247.71,CUST-0007,2024-01-24,2024-03-02,open
+CSCU3860721,Flat Rack,40ft,Port of Baltimore,Port of Miami,10,4,275.7,CUST-0006,2024-07-09,2024-07-13,open
+CSCU2909784,Open Top,40ft,Port of Baltimore,Port of Houston,14,14,237.98,CUST-0031,2024-08-03,2024-08-17,open
+CSCU3798082,Dry Van,20ft,Port of Los Angeles,Port of New York,5,5,183.21,CUST-0038,2024-09-04,2024-09-09,open
+CSCU4041047,Tank,40ft,Port of Seattle,Port of Miami,5,5,272.52,CUST-0057,2024-03-07,2024-03-12,open
+CSCU2894776,Open Top,40ft,Port of Los Angeles,Port of Long Beach,10,10,230.99,CUST-0001,2024-12-26,2025-01-05,open
+CSCU4757843,Flat Rack,45ft,Port of Oakland,Port of Miami,5,5,186.57,CUST-0047,2024-05-07,2024-05-12,open
+CSCU3494007,Tank,45ft,Port of Los Angeles,Port of Los Angeles,7,2,201.11,CUST-0031,2024-09-10,2024-09-12,open
+CSCU9248484,Flat Rack,20ft,Port of Seattle,Port of Houston,5,3,201.39,CUST-0036,2024-11-25,2024-11-28,open
+CSCU2322557,Open Top,40ft,Port of Miami,Port of Baltimore,5,13,271.32,CUST-0029,2024-06-10,2024-06-23,open
+CSCU1298116,Dry Van,40ft,Port of Charleston,Port of Los Angeles,5,4,265.18,CUST-0051,2024-11-05,2024-11-09,open
+CSCU9528492,Tank,20ft,Port of Baltimore,Port of Seattle,10,7,265.06,CUST-0053,2024-04-24,2024-05-01,open
+CSCU8937865,Flat Rack,45ft,Port of Baltimore,Port of Long Beach,5,4,251.86,CUST-0015,2024-01-02,2024-01-06,open
+CSCU9757456,Flat Rack,45ft,Port of Long Beach,Port of Los Angeles,7,17,198.48,CUST-0053,2024-07-28,2024-08-14,open
+CSCU4287016,Reefer,20ft,Port of Charleston,Port of Savannah,14,21,264.91,CUST-0013,2024-06-22,2024-07-13,open
+CSCU1780146,Tank,20ft,Port of Baltimore,Port of Baltimore,7,6,292.77,CUST-0001,2024-09-28,2024-10-04,open
+CSCU8261353,Tank,40ft,Port of Oakland,Port of New York,7,6,246.1,CUST-0009,2024-02-23,2024-02-29,open
+CSCU6399642,Tank,40ft,Port of Charleston,Port of Miami,7,3,154.72,CUST-0022,2024-05-30,2024-06-02,open
+CSCU3318275,Open Top,45ft,Port of Oakland,Port of Houston,10,5,242.37,CUST-0060,2024-10-10,2024-10-15,open
+CSCU4518395,Tank,45ft,Port of Houston,Port of Seattle,7,7,296.27,CUST-0042,2024-04-01,2024-04-08,open
+CSCU6408662,Dry Van,40ft,Port of Oakland,Port of Baltimore,14,8,234.85,CUST-0058,2024-09-30,2024-10-08,open
+CSCU1214253,Tank,20ft,Port of Los Angeles,Port of Charleston,7,3,110.61,CUST-0004,2024-04-12,2024-04-15,open
+CSCU5808610,Flat Rack,20ft,Port of Los Angeles,Port of Houston,7,2,250.72,CUST-0003,2024-07-02,2024-07-04,open
+CSCU4763253,Tank,40ft,Port of Savannah,Port of Oakland,10,7,238.59,CUST-0004,2024-07-14,2024-07-21,open
+CSCU1902651,Dry Van,45ft,Port of Houston,Port of Savannah,14,12,266.0,CUST-0059,2024-11-20,2024-12-02,open
+CSCU7169672,Tank,45ft,Port of Miami,Port of Savannah,7,10,158.84,CUST-0012,2024-12-15,2024-12-25,open
+CSCU9620919,Dry Van,40ft,Port of Los Angeles,Port of Charleston,10,6,211.32,CUST-0009,2024-03-23,2024-03-29,open
+CSCU1094709,Flat Rack,40ft,Port of New York,Port of Los Angeles,7,7,285.73,CUST-0039,2024-01-27,2024-02-03,open
+CSCU6052539,Open Top,45ft,Port of Oakland,Port of Seattle,5,3,256.81,CUST-0021,2024-09-26,2024-09-29,open
+CSCU9734324,Dry Van,45ft,Port of New York,Port of Charleston,14,7,118.39,CUST-0015,2024-04-19,2024-04-26,open
+CSCU7053183,Flat Rack,20ft,Port of Miami,Port of Oakland,14,52,299.33,CUST-0053,2024-11-28,2025-01-19,open
+CSCU8477055,Reefer,45ft,Port of Miami,Port of Miami,7,2,291.78,CUST-0044,2024-06-13,2024-06-15,open
+CSCU7473923,Flat Rack,45ft,Port of Houston,Port of Los Angeles,10,6,202.86,CUST-0033,2024-08-16,2024-08-22,open
+CSCU4229821,Flat Rack,45ft,Port of Long Beach,Port of Long Beach,7,7,294.33,CUST-0050,2024-10-02,2024-10-09,open
+CSCU2098434,Reefer,45ft,Port of Savannah,Port of Charleston,5,5,141.12,CUST-0054,2024-12-25,2024-12-30,open
+CSCU2209981,Reefer,20ft,Port of Baltimore,Port of Seattle,5,2,117.5,CUST-0004,2024-04-01,2024-04-03,open
+CSCU4819259,Flat Rack,40ft,Port of Charleston,Port of Baltimore,14,10,186.61,CUST-0002,2024-07-18,2024-07-28,open
+CSCU1098967,Tank,20ft,Port of Miami,Port of Los Angeles,5,4,171.54,CUST-0033,2024-02-24,2024-02-28,open
+CSCU2451316,Flat Rack,40ft,Port of Charleston,Port of Charleston,5,12,194.8,CUST-0035,2024-04-22,2024-05-04,open
+CSCU5948917,Reefer,40ft,Port of Seattle,Port of Los Angeles,7,6,124.65,CUST-0001,2024-10-20,2024-10-26,open
+CSCU2428191,Flat Rack,20ft,Port of Seattle,Port of Savannah,14,17,281.13,CUST-0055,2024-09-19,2024-10-06,open
+CSCU4704207,Tank,40ft,Port of Savannah,Port of Long Beach,7,6,234.2,CUST-0037,2024-01-28,2024-02-03,open
+CSCU8738745,Tank,20ft,Port of Houston,Port of Long Beach,10,7,119.64,CUST-0047,2024-10-24,2024-10-31,open
+CSCU6991787,Reefer,45ft,Port of Savannah,Port of Long Beach,10,9,223.9,CUST-0058,2024-04-09,2024-04-18,open
+CSCU6508733,Tank,45ft,Port of Houston,Port of Miami,7,3,213.11,CUST-0024,2024-06-10,2024-06-13,open
+CSCU1081065,Flat Rack,20ft,Port of Savannah,Port of Charleston,10,9,268.02,CUST-0009,2024-12-13,2024-12-22,open
+CSCU8765307,Open Top,40ft,Port of Houston,Port of Baltimore,5,3,135.15,CUST-0039,2024-02-11,2024-02-14,open
+CSCU4295580,Flat Rack,45ft,Port of Long Beach,Port of Long Beach,5,5,269.92,CUST-0041,2024-01-16,2024-01-21,open
+CSCU4569531,Dry Van,45ft,Port of Houston,Port of Oakland,14,14,230.78,CUST-0010,2024-07-06,2024-07-20,open
+CSCU5882155,Reefer,40ft,Port of Oakland,Port of Oakland,5,3,179.36,CUST-0033,2024-01-06,2024-01-09,open
+CSCU9625782,Reefer,40ft,Port of New York,Port of New York,7,61,247.18,CUST-0031,2024-07-02,2024-09-01,open
+CSCU4888118,Dry Van,40ft,Port of Seattle,Port of Savannah,5,5,233.72,CUST-0034,2024-07-03,2024-07-08,open
+CSCU1779091,Dry Van,45ft,Port of Seattle,Port of Long Beach,10,4,266.97,CUST-0017,2024-10-23,2024-10-27,open
+CSCU7319298,Open Top,40ft,Port of Miami,Port of Long Beach,10,7,175.27,CUST-0059,2024-04-24,2024-05-01,open
+CSCU6788681,Open Top,40ft,Port of Miami,Port of Los Angeles,7,4,187.98,CUST-0015,2024-02-09,2024-02-13,open
+CSCU4548668,Reefer,20ft,Port of New York,Port of Seattle,5,5,232.22,CUST-0027,2024-06-18,2024-06-23,open
+CSCU9033176,Open Top,20ft,Port of Miami,Port of New York,14,4,104.49,CUST-0003,2024-03-06,2024-03-10,open
+CSCU3260294,Tank,20ft,Port of Miami,Port of New York,5,5,133.27,CUST-0060,2024-04-02,2024-04-07,open
+CSCU1312392,Flat Rack,20ft,Port of Savannah,Port of Baltimore,14,11,273.46,CUST-0011,2024-04-22,2024-05-03,open
+CSCU3394312,Tank,20ft,Port of Miami,Port of Oakland,10,3,133.54,CUST-0044,2024-06-24,2024-06-27,open
+CSCU4855635,Open Top,40ft,Port of New York,Port of Long Beach,5,3,140.47,CUST-0056,2024-09-15,2024-09-18,open
+CSCU2615622,Reefer,40ft,Port of Miami,Port of Miami,5,2,275.55,CUST-0035,2024-09-14,2024-09-16,open
+CSCU9090660,Reefer,45ft,Port of Oakland,Port of Los Angeles,14,8,204.41,CUST-0024,2024-01-23,2024-01-31,open
+CSCU4850140,Open Top,40ft,Port of Seattle,Port of Miami,5,2,185.1,CUST-0017,2024-09-01,2024-09-03,open
+CSCU5752426,Tank,45ft,Port of Charleston,Port of Houston,7,2,101.09,CUST-0048,2024-01-04,2024-01-06,open
+CSCU9720156,Dry Van,40ft,Port of Savannah,Port of Seattle,14,6,172.45,CUST-0010,2024-08-06,2024-08-12,open
+CSCU5383935,Tank,40ft,Port of Miami,Port of Seattle,10,10,298.36,CUST-0026,2024-04-14,2024-04-24,open
+CSCU9094465,Reefer,40ft,Port of Oakland,Port of Oakland,14,13,150.76,CUST-0020,2024-10-22,2024-11-04,open
+CSCU7679508,Reefer,45ft,Port of Long Beach,Port of Savannah,14,8,256.62,CUST-0011,2024-02-21,2024-02-29,open
+CSCU6678044,Tank,45ft,Port of Los Angeles,Port of New York,14,9,292.91,CUST-0001,2024-02-16,2024-02-25,open
+CSCU8304421,Dry Van,20ft,Port of Houston,Port of Savannah,10,8,116.01,CUST-0003,2024-07-15,2024-07-23,open
+CSCU9741022,Flat Rack,45ft,Port of Miami,Port of Los Angeles,7,7,228.06,CUST-0029,2024-01-06,2024-01-13,open
+CSCU9693169,Flat Rack,20ft,Port of Los Angeles,Port of Miami,7,7,223.04,CUST-0044,2024-01-19,2024-01-26,open
+CSCU1004819,Reefer,20ft,Port of Houston,Port of Charleston,10,2,233.93,CUST-0026,2024-10-27,2024-10-29,open
+CSCU2151205,Dry Van,45ft,Port of Houston,Port of Oakland,10,5,169.5,CUST-0053,2024-05-21,2024-05-26,open
+CSCU8629590,Open Top,45ft,Port of Los Angeles,Port of Houston,7,12,181.43,CUST-0007,2024-10-13,2024-10-25,open
+CSCU6703681,Dry Van,45ft,Port of Houston,Port of Oakland,10,5,238.84,CUST-0025,2024-10-15,2024-10-20,open
+CSCU6698561,Open Top,45ft,Port of Baltimore,Port of Miami,5,3,196.39,CUST-0017,2024-02-04,2024-02-07,open
+CSCU4857587,Flat Rack,40ft,Port of Seattle,Port of Oakland,5,5,240.16,CUST-0017,2024-05-07,2024-05-12,open
+CSCU6737688,Dry Van,45ft,Port of New York,Port of Baltimore,10,5,170.71,CUST-0058,2024-10-20,2024-10-25,open
+CSCU9371819,Reefer,20ft,Port of Savannah,Port of Houston,7,4,145.84,CUST-0054,2024-05-07,2024-05-11,open
+CSCU3617171,Dry Van,20ft,Port of Long Beach,Port of Baltimore,5,4,252.85,CUST-0035,2024-01-22,2024-01-26,open
+CSCU6291817,Open Top,45ft,Port of Houston,Port of Baltimore,7,3,296.88,CUST-0059,2024-09-18,2024-09-21,open
+CSCU3151610,Dry Van,45ft,Port of Charleston,Port of Baltimore,5,5,200.5,CUST-0026,2024-12-17,2024-12-22,open
+CSCU3019442,Tank,40ft,Port of Seattle,Port of Los Angeles,5,11,234.82,CUST-0025,2024-10-24,2024-11-04,open
+CSCU5357055,Reefer,45ft,Port of Houston,Port of Savannah,10,9,194.27,CUST-0040,2024-06-24,2024-07-03,open
+CSCU8112581,Reefer,40ft,Port of Seattle,Port of Seattle,14,24,155.93,CUST-0012,2024-10-19,2024-11-12,open
+CSCU4834713,Dry Van,45ft,Port of Houston,Port of Savannah,14,13,271.26,CUST-0013,2024-03-15,2024-03-28,open
+CSCU3509000,Open Top,20ft,Port of New York,Port of Charleston,14,13,126.89,CUST-0058,2024-11-18,2024-12-01,open
+CSCU6297024,Open Top,40ft,Port of Houston,Port of Oakland,5,19,179.68,CUST-0045,2024-03-24,2024-04-12,open
+CSCU5266272,Open Top,45ft,Port of Long Beach,Port of Baltimore,10,6,151.95,CUST-0024,2024-10-13,2024-10-19,open
+CSCU6773715,Dry Van,40ft,Port of Long Beach,Port of Seattle,7,4,215.37,CUST-0042,2024-11-28,2024-12-02,open
+CSCU6957741,Flat Rack,45ft,Port of Oakland,Port of Baltimore,14,12,277.93,CUST-0025,2024-11-10,2024-11-22,open
+CSCU3430151,Reefer,45ft,Port of Seattle,Port of Charleston,14,18,269.78,CUST-0005,2024-02-10,2024-02-28,open
+CSCU6259356,Flat Rack,45ft,Port of Houston,Port of Houston,14,10,154.25,CUST-0029,2024-07-04,2024-07-14,open
+CSCU8554590,Open Top,20ft,Port of New York,Port of Los Angeles,7,7,245.55,CUST-0043,2024-05-08,2024-05-15,open
+CSCU2343263,Reefer,20ft,Port of Charleston,Port of Long Beach,5,2,112.76,CUST-0057,2024-08-30,2024-09-01,open
+CSCU7660764,Tank,20ft,Port of Long Beach,Port of Houston,7,3,116.86,CUST-0060,2024-07-18,2024-07-21,open
+CSCU5767670,Open Top,45ft,Port of New York,Port of New York,7,4,105.71,CUST-0043,2024-07-01,2024-07-05,open
+CSCU8988550,Open Top,45ft,Port of Houston,Port of Oakland,14,24,127.02,CUST-0045,2024-10-03,2024-10-27,open
+CSCU8659527,Tank,40ft,Port of Oakland,Port of Oakland,10,3,281.78,CUST-0031,2024-10-03,2024-10-06,open
+CSCU8413185,Flat Rack,40ft,Port of Charleston,Port of Houston,7,3,160.71,CUST-0001,2024-09-24,2024-09-27,open
+CSCU6769431,Flat Rack,40ft,Port of Oakland,Port of Los Angeles,14,57,289.39,CUST-0031,2024-06-02,2024-07-29,open
+CSCU5914425,Tank,20ft,Port of Los Angeles,Port of Oakland,10,5,137.71,CUST-0057,2024-10-14,2024-10-19,open
+CSCU3739207,Open Top,40ft,Port of Savannah,Port of Houston,5,4,184.45,CUST-0016,2024-09-21,2024-09-25,open
+CSCU5776085,Tank,40ft,Port of Charleston,Port of Savannah,5,5,136.48,CUST-0019,2024-02-26,2024-03-02,open
+CSCU5565653,Tank,40ft,Port of Savannah,Port of Seattle,5,7,130.43,CUST-0035,2024-01-12,2024-01-19,open
+CSCU5733096,Flat Rack,20ft,Port of Baltimore,Port of Los Angeles,7,5,118.04,CUST-0001,2024-09-09,2024-09-14,open
+CSCU6227389,Open Top,40ft,Port of Baltimore,Port of Los Angeles,10,23,116.04,CUST-0049,2024-03-15,2024-04-07,open
+CSCU7583744,Dry Van,45ft,Port of Baltimore,Port of New York,7,2,279.14,CUST-0017,2024-07-14,2024-07-16,open
+CSCU5176895,Open Top,40ft,Port of Savannah,Port of Los Angeles,7,3,192.17,CUST-0050,2024-02-18,2024-02-21,open
+CSCU8932696,Open Top,45ft,Port of Houston,Port of Seattle,7,4,225.83,CUST-0003,2024-10-08,2024-10-12,open
+CSCU9073692,Flat Rack,20ft,Port of Seattle,Port of Los Angeles,7,2,294.65,CUST-0016,2024-11-20,2024-11-22,open
+CSCU3807840,Flat Rack,45ft,Port of Long Beach,Port of Charleston,7,5,101.79,CUST-0003,2024-10-24,2024-10-29,open
+CSCU3600333,Flat Rack,20ft,Port of Savannah,Port of New York,14,14,118.28,CUST-0040,2024-06-22,2024-07-06,open
+CSCU2007511,Dry Van,40ft,Port of New York,Port of Oakland,5,4,125.17,CUST-0015,2024-06-11,2024-06-15,open
+CSCU8360481,Reefer,20ft,Port of Charleston,Port of Seattle,7,6,150.14,CUST-0003,2024-09-05,2024-09-11,open
+CSCU5944490,Tank,45ft,Port of Baltimore,Port of Savannah,7,6,208.72,CUST-0021,2024-08-27,2024-09-02,open
+CSCU3690116,Dry Van,45ft,Port of New York,Port of Baltimore,10,10,263.88,CUST-0035,2024-07-06,2024-07-16,open
+CSCU7359295,Reefer,20ft,Port of Miami,Port of Seattle,7,5,164.14,CUST-0005,2024-12-03,2024-12-08,open
+CSCU4185480,Tank,45ft,Port of Baltimore,Port of Oakland,7,2,222.61,CUST-0021,2024-07-28,2024-07-30,open
+CSCU2614912,Tank,45ft,Port of Long Beach,Port of Los Angeles,7,11,135.73,CUST-0003,2024-04-13,2024-04-24,open
+CSCU2656810,Dry Van,45ft,Port of Charleston,Port of Baltimore,10,2,109.82,CUST-0015,2024-11-06,2024-11-08,open
+CSCU4502044,Open Top,20ft,Port of Baltimore,Port of Los Angeles,10,2,211.6,CUST-0057,2024-07-31,2024-08-02,open
+CSCU5459646,Tank,20ft,Port of Long Beach,Port of Houston,5,9,288.92,CUST-0034,2024-02-19,2024-02-28,open
+CSCU9919792,Open Top,20ft,Port of Savannah,Port of Oakland,7,5,214.01,CUST-0012,2024-10-12,2024-10-17,open
+CSCU2770234,Tank,40ft,Port of Baltimore,Port of Charleston,5,4,133.36,CUST-0012,2024-10-08,2024-10-12,open
+CSCU3653760,Tank,45ft,Port of Baltimore,Port of Seattle,10,8,210.02,CUST-0021,2024-07-09,2024-07-17,open
+CSCU6426605,Tank,20ft,Port of Miami,Port of Oakland,7,5,175.01,CUST-0036,2024-05-10,2024-05-15,open
+CSCU8507800,Open Top,20ft,Port of Los Angeles,Port of Houston,5,44,203.52,CUST-0057,2024-06-03,2024-07-17,open
+CSCU4604128,Flat Rack,20ft,Port of Houston,Port of Oakland,7,12,118.86,CUST-0030,2024-07-01,2024-07-13,open
+CSCU7158628,Tank,20ft,Port of Savannah,Port of Houston,10,3,118.38,CUST-0026,2024-10-18,2024-10-21,open
+CSCU6447428,Open Top,20ft,Port of Baltimore,Port of Miami,5,5,219.05,CUST-0020,2024-01-20,2024-01-25,open
+CSCU2316632,Dry Van,40ft,Port of Seattle,Port of Charleston,14,11,286.05,CUST-0008,2024-04-26,2024-05-07,open
+CSCU1191837,Open Top,20ft,Port of Houston,Port of Oakland,5,3,163.86,CUST-0037,2024-03-17,2024-03-20,open
+CSCU3570227,Dry Van,45ft,Port of Charleston,Port of Baltimore,5,11,144.42,CUST-0019,2024-07-20,2024-07-31,open
+CSCU2384877,Open Top,45ft,Port of Los Angeles,Port of Oakland,14,13,152.51,CUST-0026,2024-09-13,2024-09-26,open
+CSCU3187332,Reefer,40ft,Port of Oakland,Port of Savannah,14,13,179.06,CUST-0037,2024-04-10,2024-04-23,open
+CSCU9795418,Reefer,20ft,Port of Long Beach,Port of Houston,14,25,164.68,CUST-0060,2024-10-21,2024-11-15,open
+CSCU7938755,Open Top,40ft,Port of Seattle,Port of Savannah,10,4,168.9,CUST-0042,2024-01-13,2024-01-17,open
+CSCU6867267,Tank,40ft,Port of Miami,Port of New York,14,20,108.98,CUST-0053,2024-04-29,2024-05-19,open
+CSCU3617098,Dry Van,20ft,Port of Los Angeles,Port of Savannah,7,37,273.75,CUST-0053,2024-05-27,2024-07-03,open
+CSCU6119031,Open Top,40ft,Port of Los Angeles,Port of Seattle,7,4,248.0,CUST-0014,2024-04-14,2024-04-18,open
+CSCU9103837,Tank,45ft,Port of New York,Port of Los Angeles,14,40,216.6,CUST-0043,2024-09-26,2024-11-05,open
+CSCU2008479,Flat Rack,20ft,Port of Miami,Port of Houston,5,4,192.99,CUST-0001,2024-02-04,2024-02-08,open
+CSCU7043474,Dry Van,20ft,Port of Houston,Port of Charleston,7,13,295.96,CUST-0033,2024-12-29,2025-01-11,open
+CSCU9131281,Tank,45ft,Port of Long Beach,Port of New York,7,2,200.13,CUST-0030,2024-10-14,2024-10-16,open
+CSCU1666934,Reefer,45ft,Port of Houston,Port of Seattle,14,7,178.68,CUST-0011,2024-01-10,2024-01-17,open
+CSCU6962255,Flat Rack,20ft,Port of Oakland,Port of Houston,5,2,225.16,CUST-0057,2024-07-17,2024-07-19,open
+CSCU5700872,Reefer,20ft,Port of Seattle,Port of Charleston,7,6,117.56,CUST-0025,2024-09-23,2024-09-29,open
+CSCU4815608,Open Top,20ft,Port of Miami,Port of New York,14,10,294.11,CUST-0059,2024-11-05,2024-11-15,open
+CSCU3210769,Reefer,45ft,Port of New York,Port of Miami,7,6,272.52,CUST-0020,2024-12-18,2024-12-24,open
+CSCU3269160,Open Top,20ft,Port of Miami,Port of New York,10,24,113.56,CUST-0035,2024-03-01,2024-03-25,open
+CSCU3441467,Dry Van,40ft,Port of Charleston,Port of Charleston,10,6,188.6,CUST-0060,2024-11-22,2024-11-28,open
+CSCU3549416,Reefer,20ft,Port of New York,Port of New York,5,3,252.49,CUST-0040,2024-11-11,2024-11-14,open
+CSCU4895376,Reefer,45ft,Port of Los Angeles,Port of Seattle,5,5,237.63,CUST-0031,2024-03-09,2024-03-14,open
+CSCU7273997,Reefer,40ft,Port of Baltimore,Port of Baltimore,7,2,132.76,CUST-0015,2024-01-17,2024-01-19,open
+CSCU5527477,Open Top,20ft,Port of Savannah,Port of Savannah,5,4,135.42,CUST-0029,2024-11-11,2024-11-15,open
+CSCU8676330,Reefer,40ft,Port of Charleston,Port of Los Angeles,14,11,244.04,CUST-0026,2024-11-09,2024-11-20,open
+CSCU9995261,Tank,45ft,Port of Los Angeles,Port of Oakland,5,3,190.32,CUST-0053,2024-01-22,2024-01-25,open
+CSCU9702386,Tank,40ft,Port of Los Angeles,Port of Oakland,14,22,203.23,CUST-0041,2024-01-26,2024-02-17,open
+CSCU7678001,Flat Rack,40ft,Port of Baltimore,Port of New York,14,4,158.88,CUST-0059,2024-01-28,2024-02-01,open
+CSCU8777564,Open Top,20ft,Port of Oakland,Port of Long Beach,7,5,255.75,CUST-0058,2024-12-22,2024-12-27,open
+CSCU7938373,Flat Rack,40ft,Port of Los Angeles,Port of New York,14,3,218.06,CUST-0046,2024-04-13,2024-04-16,open
+CSCU5195684,Flat Rack,45ft,Port of New York,Port of Long Beach,5,5,122.83,CUST-0029,2024-11-20,2024-11-25,open
+CSCU9584338,Tank,20ft,Port of Charleston,Port of Oakland,14,12,108.78,CUST-0011,2024-06-20,2024-07-02,open
+CSCU3518087,Reefer,20ft,Port of New York,Port of Los Angeles,14,4,161.61,CUST-0047,2024-08-16,2024-08-20,open
+CSCU2972228,Reefer,20ft,Port of Los Angeles,Port of Miami,10,2,102.44,CUST-0032,2024-09-12,2024-09-14,open
+CSCU9278999,Reefer,20ft,Port of Miami,Port of Baltimore,14,5,182.03,CUST-0006,2024-11-03,2024-11-08,open
+CSCU5665960,Tank,45ft,Port of Oakland,Port of Savannah,5,3,136.97,CUST-0004,2024-11-30,2024-12-03,open
+CSCU1544120,Tank,45ft,Port of Houston,Port of Seattle,5,10,109.81,CUST-0027,2024-04-01,2024-04-11,open
+CSCU3976601,Open Top,45ft,Port of Miami,Port of Seattle,5,5,118.63,CUST-0020,2024-06-14,2024-06-19,open
+CSCU2135258,Open Top,45ft,Port of Long Beach,Port of Houston,14,8,126.91,CUST-0045,2024-05-20,2024-05-28,open
+CSCU9802102,Reefer,45ft,Port of Savannah,Port of Miami,5,2,121.86,CUST-0047,2024-11-18,2024-11-20,open
+CSCU9114518,Tank,45ft,Port of Houston,Port of Charleston,10,4,151.93,CUST-0037,2024-11-15,2024-11-19,open
+CSCU9328158,Tank,45ft,Port of Baltimore,Port of Baltimore,7,3,276.73,CUST-0015,2024-12-28,2024-12-31,open
+CSCU1026523,Dry Van,20ft,Port of Baltimore,Port of Long Beach,7,52,259.91,CUST-0027,2024-07-30,2024-09-20,open
+CSCU4562439,Dry Van,45ft,Port of Savannah,Port of Houston,10,7,258.04,CUST-0020,2024-06-02,2024-06-09,open
+CSCU1102865,Dry Van,45ft,Port of Seattle,Port of Seattle,14,5,244.88,CUST-0040,2024-01-15,2024-01-20,open
+CSCU6545118,Flat Rack,45ft,Port of Baltimore,Port of Baltimore,5,4,229.13,CUST-0031,2024-03-20,2024-03-24,open
+CSCU8758960,Open Top,45ft,Port of Los Angeles,Port of Oakland,10,2,212.99,CUST-0044,2024-06-10,2024-06-12,open
+CSCU4494064,Tank,45ft,Port of Seattle,Port of Seattle,5,5,293.92,CUST-0018,2024-01-16,2024-01-21,open
+CSCU9963616,Reefer,45ft,Port of Miami,Port of Charleston,7,4,219.04,CUST-0056,2024-06-06,2024-06-10,open
+CSCU1530633,Flat Rack,40ft,Port of Long Beach,Port of Baltimore,7,4,174.32,CUST-0054,2024-06-03,2024-06-07,open
+CSCU3936226,Dry Van,40ft,Port of Los Angeles,Port of Savannah,5,3,188.75,CUST-0002,2024-09-04,2024-09-07,open
+CSCU4191222,Flat Rack,40ft,Port of Oakland,Port of Houston,10,10,128.66,CUST-0056,2024-02-20,2024-03-01,open
+CSCU3226624,Reefer,45ft,Port of Los Angeles,Port of Baltimore,14,32,242.74,CUST-0034,2024-02-29,2024-04-01,open
+CSCU2460891,Flat Rack,40ft,Port of Los Angeles,Port of Long Beach,10,5,104.5,CUST-0049,2024-06-08,2024-06-13,open
+CSCU6383479,Reefer,20ft,Port of Houston,Port of Houston,10,4,254.56,CUST-0043,2024-03-01,2024-03-05,open
+CSCU5590865,Dry Van,20ft,Port of Miami,Port of Oakland,5,3,141.32,CUST-0023,2024-10-08,2024-10-11,open
+CSCU5752443,Tank,20ft,Port of New York,Port of Long Beach,10,4,222.65,CUST-0022,2024-10-03,2024-10-07,open
+CSCU1486416,Open Top,45ft,Port of Los Angeles,Port of Long Beach,14,24,110.76,CUST-0028,2024-07-19,2024-08-12,open
+CSCU8479891,Tank,40ft,Port of Houston,Port of Seattle,7,22,242.58,CUST-0043,2024-09-30,2024-10-22,open
+CSCU8813071,Tank,20ft,Port of Long Beach,Port of Baltimore,5,5,191.12,CUST-0044,2024-11-25,2024-11-30,open
+CSCU8894449,Reefer,20ft,Port of New York,Port of Miami,10,7,282.57,CUST-0026,2024-04-03,2024-04-10,open
+CSCU6448586,Open Top,40ft,Port of Los Angeles,Port of Long Beach,14,6,122.58,CUST-0031,2024-08-24,2024-08-30,open
+CSCU6848796,Tank,45ft,Port of New York,Port of Oakland,5,2,181.14,CUST-0046,2024-02-24,2024-02-26,open
+CSCU6068701,Tank,40ft,Port of Charleston,Port of Miami,14,22,147.72,CUST-0016,2024-10-07,2024-10-29,open
+CSCU7439371,Dry Van,40ft,Port of Savannah,Port of Miami,14,10,256.86,CUST-0028,2024-10-17,2024-10-27,open
+CSCU4962012,Reefer,45ft,Port of Long Beach,Port of Miami,14,3,122.86,CUST-0039,2024-08-25,2024-08-28,open
+CSCU8469488,Reefer,40ft,Port of Charleston,Port of Long Beach,5,2,237.1,CUST-0039,2024-07-13,2024-07-15,open
+CSCU2518891,Reefer,20ft,Port of Miami,Port of Los Angeles,7,6,232.18,CUST-0029,2024-09-29,2024-10-05,open
+CSCU8502096,Reefer,20ft,Port of Seattle,Port of Houston,10,7,283.7,CUST-0060,2024-08-10,2024-08-17,open
+CSCU2497994,Tank,20ft,Port of Miami,Port of Oakland,14,29,269.53,CUST-0055,2024-05-30,2024-06-28,open
+CSCU1891328,Dry Van,45ft,Port of Oakland,Port of Seattle,5,5,272.25,CUST-0056,2024-01-16,2024-01-21,open
+CSCU6337290,Open Top,40ft,Port of Charleston,Port of Charleston,7,14,232.5,CUST-0031,2024-03-12,2024-03-26,open
+CSCU7044627,Open Top,20ft,Port of Houston,Port of New York,7,22,102.32,CUST-0042,2024-01-09,2024-01-31,open
+CSCU9165493,Open Top,20ft,Port of Long Beach,Port of New York,14,8,272.03,CUST-0058,2024-12-22,2024-12-30,open
+CSCU4016499,Open Top,45ft,Port of Charleston,Port of Oakland,14,2,176.94,CUST-0015,2024-04-05,2024-04-07,open
+CSCU9357686,Reefer,45ft,Port of Oakland,Port of Houston,14,32,285.31,CUST-0037,2024-07-06,2024-08-07,open
+CSCU9107893,Flat Rack,20ft,Port of Miami,Port of Baltimore,5,4,128.42,CUST-0047,2024-09-26,2024-09-30,open
+CSCU8800337,Tank,20ft,Port of Oakland,Port of Miami,5,2,149.05,CUST-0041,2024-12-05,2024-12-07,open
+CSCU6242875,Tank,20ft,Port of Seattle,Port of Oakland,5,4,193.77,CUST-0033,2024-08-28,2024-09-01,open
+CSCU8063478,Flat Rack,40ft,Port of Houston,Port of New York,5,4,239.01,CUST-0039,2024-06-04,2024-06-08,open
+CSCU2030419,Open Top,45ft,Port of New York,Port of Miami,5,61,231.26,CUST-0019,2024-11-15,2025-01-15,open
+CSCU2384290,Reefer,45ft,Port of Long Beach,Port of Houston,10,2,126.51,CUST-0018,2024-05-20,2024-05-22,open
+CSCU2871488,Tank,20ft,Port of Miami,Port of New York,14,5,173.95,CUST-0012,2024-05-13,2024-05-18,open
+CSCU9135582,Reefer,45ft,Port of Los Angeles,Port of Seattle,5,5,293.47,CUST-0039,2024-03-19,2024-03-24,open
+CSCU7428475,Reefer,45ft,Port of Baltimore,Port of New York,7,12,215.55,CUST-0054,2024-06-25,2024-07-07,open
+CSCU2946062,Dry Van,20ft,Port of Baltimore,Port of Charleston,14,12,160.27,CUST-0048,2024-09-29,2024-10-11,open
+CSCU7544296,Open Top,40ft,Port of New York,Port of Oakland,14,7,102.37,CUST-0060,2024-08-17,2024-08-24,open
+CSCU9896176,Dry Van,20ft,Port of Oakland,Port of Seattle,14,6,222.1,CUST-0042,2024-05-19,2024-05-25,open
+CSCU2648810,Flat Rack,45ft,Port of Miami,Port of Charleston,14,11,254.63,CUST-0048,2024-05-03,2024-05-14,open
+CSCU4270310,Tank,40ft,Port of New York,Port of Seattle,5,36,234.56,CUST-0054,2024-02-04,2024-03-11,open
+CSCU9812472,Dry Van,45ft,Port of Baltimore,Port of Seattle,7,69,245.05,CUST-0017,2024-04-08,2024-06-16,open
+CSCU2542518,Dry Van,45ft,Port of Savannah,Port of Miami,5,3,241.62,CUST-0008,2024-02-14,2024-02-17,open
+CSCU7307535,Tank,20ft,Port of Long Beach,Port of New York,10,6,158.91,CUST-0043,2024-02-08,2024-02-14,open
+CSCU8163592,Flat Rack,40ft,Port of New York,Port of Long Beach,10,2,255.42,CUST-0025,2024-07-17,2024-07-19,open
+CSCU5332524,Flat Rack,20ft,Port of Baltimore,Port of Long Beach,14,12,295.88,CUST-0013,2024-11-08,2024-11-20,open
+CSCU9255351,Dry Van,20ft,Port of Oakland,Port of Charleston,7,2,222.79,CUST-0007,2024-08-14,2024-08-16,open
+CSCU1584868,Dry Van,20ft,Port of Miami,Port of Houston,14,2,103.75,CUST-0032,2024-03-17,2024-03-19,open
+CSCU1634776,Open Top,40ft,Port of New York,Port of Seattle,14,9,214.93,CUST-0033,2024-12-28,2025-01-06,open
+CSCU9021848,Open Top,40ft,Port of Long Beach,Port of Oakland,7,16,100.66,CUST-0045,2024-09-03,2024-09-19,open
+CSCU7021650,Flat Rack,45ft,Port of Houston,Port of Charleston,5,4,226.45,CUST-0042,2024-02-16,2024-02-20,open
+CSCU2349840,Open Top,40ft,Port of Savannah,Port of New York,5,5,293.5,CUST-0043,2024-04-07,2024-04-12,open
+CSCU2791270,Flat Rack,40ft,Port of Long Beach,Port of Baltimore,7,6,127.99,CUST-0013,2024-01-13,2024-01-19,open
+CSCU5001116,Open Top,40ft,Port of Long Beach,Port of Oakland,10,2,199.94,CUST-0054,2024-08-18,2024-08-20,open
+CSCU1621473,Flat Rack,20ft,Port of Seattle,Port of Los Angeles,14,9,123.64,CUST-0052,2024-11-30,2024-12-09,open
+CSCU3499027,Tank,20ft,Port of Long Beach,Port of Los Angeles,7,6,197.78,CUST-0002,2024-08-29,2024-09-04,open
+CSCU1768424,Reefer,45ft,Port of New York,Port of Los Angeles,7,2,226.53,CUST-0058,2024-06-06,2024-06-08,open
+CSCU8653507,Tank,20ft,Port of Miami,Port of Long Beach,5,3,122.84,CUST-0039,2024-11-11,2024-11-14,open
+CSCU8150641,Flat Rack,45ft,Port of Charleston,Port of Seattle,5,19,295.17,CUST-0037,2024-10-06,2024-10-25,open
+CSCU4577436,Dry Van,45ft,Port of New York,Port of Seattle,5,11,124.15,CUST-0010,2024-07-31,2024-08-11,open
+CSCU3768343,Open Top,20ft,Port of Miami,Port of Los Angeles,7,3,119.99,CUST-0055,2024-11-19,2024-11-22,open
+CSCU1262233,Open Top,20ft,Port of Los Angeles,Port of Los Angeles,7,4,285.23,CUST-0046,2024-11-29,2024-12-03,open
+CSCU7983050,Open Top,45ft,Port of New York,Port of Savannah,7,3,227.97,CUST-0034,2024-08-18,2024-08-21,open
+CSCU1631179,Tank,20ft,Port of Baltimore,Port of Miami,5,2,225.44,CUST-0051,2024-06-03,2024-06-05,open
+CSCU4953366,Reefer,20ft,Port of Oakland,Port of Long Beach,10,5,272.55,CUST-0035,2024-09-16,2024-09-21,open
+CSCU5637668,Dry Van,20ft,Port of Long Beach,Port of New York,14,2,199.5,CUST-0011,2024-12-09,2024-12-11,open
+CSCU7110145,Flat Rack,20ft,Port of Charleston,Port of Houston,10,33,223.36,CUST-0057,2024-08-20,2024-09-22,open
+CSCU3950904,Reefer,20ft,Port of Baltimore,Port of Oakland,5,4,114.17,CUST-0016,2024-08-15,2024-08-19,open
+CSCU8030765,Reefer,45ft,Port of Seattle,Port of Savannah,5,3,165.23,CUST-0007,2024-05-01,2024-05-04,open
+CSCU7300387,Reefer,20ft,Port of Baltimore,Port of Miami,14,11,110.87,CUST-0028,2024-03-15,2024-03-26,open
+CSCU8633480,Reefer,40ft,Port of Seattle,Port of New York,14,5,243.96,CUST-0041,2024-07-02,2024-07-07,open
+CSCU6635321,Reefer,20ft,Port of Miami,Port of Los Angeles,10,4,127.3,CUST-0055,2024-08-26,2024-08-30,open
+CSCU6764248,Reefer,40ft,Port of Miami,Port of New York,7,21,215.62,CUST-0036,2024-04-27,2024-05-18,open
+CSCU9753827,Open Top,20ft,Port of Miami,Port of Baltimore,14,5,155.83,CUST-0047,2024-08-07,2024-08-12,open
+CSCU5157921,Flat Rack,40ft,Port of Miami,Port of Savannah,7,2,282.75,CUST-0058,2024-01-03,2024-01-05,open
+CSCU1672073,Open Top,45ft,Port of Oakland,Port of Los Angeles,14,9,206.22,CUST-0031,2024-12-22,2024-12-31,open
+CSCU9309504,Reefer,20ft,Port of Oakland,Port of Los Angeles,14,12,289.99,CUST-0009,2024-07-02,2024-07-14,open
+CSCU2522188,Dry Van,40ft,Port of Houston,Port of New York,14,59,271.58,CUST-0048,2024-10-25,2024-12-23,open
+CSCU8780612,Reefer,45ft,Port of Charleston,Port of New York,10,70,225.36,CUST-0046,2024-11-20,2025-01-29,open
+CSCU2186125,Open Top,45ft,Port of Seattle,Port of Oakland,5,3,159.32,CUST-0049,2024-05-18,2024-05-21,open
+CSCU2358267,Tank,40ft,Port of Los Angeles,Port of Oakland,10,2,277.6,CUST-0008,2024-07-15,2024-07-17,open
+CSCU7133266,Flat Rack,20ft,Port of Oakland,Port of Long Beach,7,7,127.68,CUST-0022,2024-05-02,2024-05-09,open
+CSCU9027788,Tank,45ft,Port of Savannah,Port of Savannah,10,6,170.54,CUST-0018,2024-09-14,2024-09-20,open
+CSCU1913687,Dry Van,40ft,Port of Seattle,Port of Baltimore,14,10,200.29,CUST-0054,2024-03-03,2024-03-13,open
+CSCU9939831,Flat Rack,40ft,Port of Miami,Port of Seattle,5,12,137.67,CUST-0057,2024-08-22,2024-09-03,open
+CSCU3999964,Flat Rack,20ft,Port of Long Beach,Port of New York,10,14,122.4,CUST-0010,2024-09-11,2024-09-25,open
+CSCU9735688,Dry Van,40ft,Port of Charleston,Port of Oakland,7,2,194.78,CUST-0027,2024-08-15,2024-08-17,open
+CSCU5890840,Reefer,20ft,Port of Los Angeles,Port of Savannah,10,7,182.34,CUST-0022,2024-12-01,2024-12-08,open
+CSCU9156216,Tank,45ft,Port of Oakland,Port of Oakland,14,6,191.6,CUST-0037,2024-03-08,2024-03-14,open
+CSCU3881270,Flat Rack,20ft,Port of Baltimore,Port of Seattle,10,9,253.95,CUST-0004,2024-03-16,2024-03-25,open
+CSCU3791109,Tank,20ft,Port of Oakland,Port of Houston,7,7,294.64,CUST-0054,2024-12-28,2025-01-04,open
+CSCU3575047,Reefer,20ft,Port of Long Beach,Port of Los Angeles,10,5,214.91,CUST-0029,2024-05-13,2024-05-18,open
+CSCU1581986,Flat Rack,40ft,Port of New York,Port of Seattle,14,2,207.97,CUST-0011,2024-09-30,2024-10-02,open
+CSCU7787429,Open Top,20ft,Port of Baltimore,Port of Seattle,7,4,100.86,CUST-0048,2024-10-06,2024-10-10,open
+CSCU5958621,Open Top,40ft,Port of Miami,Port of New York,14,4,167.74,CUST-0008,2024-09-02,2024-09-06,open
+CSCU2960855,Flat Rack,20ft,Port of Charleston,Port of Miami,7,18,189.19,CUST-0006,2024-06-16,2024-07-04,open
+CSCU4274069,Tank,45ft,Port of Savannah,Port of Houston,7,2,104.51,CUST-0035,2024-08-16,2024-08-18,open
+CSCU9586369,Open Top,20ft,Port of Baltimore,Port of Seattle,5,19,281.69,CUST-0024,2024-07-22,2024-08-10,open
+CSCU8174616,Flat Rack,40ft,Port of Seattle,Port of Los Angeles,10,3,168.98,CUST-0020,2024-08-16,2024-08-19,open
+CSCU4618764,Open Top,45ft,Port of Charleston,Port of Baltimore,10,8,132.76,CUST-0047,2024-08-05,2024-08-13,open
+CSCU3341557,Tank,45ft,Port of Long Beach,Port of New York,7,2,160.65,CUST-0056,2024-09-25,2024-09-27,open
+CSCU7304414,Dry Van,20ft,Port of Charleston,Port of Houston,14,4,134.98,CUST-0030,2024-12-29,2025-01-02,open
+CSCU4342987,Reefer,40ft,Port of Houston,Port of Oakland,14,6,108.45,CUST-0053,2024-06-03,2024-06-09,open
+CSCU9289630,Tank,45ft,Port of Baltimore,Port of Savannah,5,5,258.24,CUST-0010,2024-05-14,2024-05-19,open
+CSCU3083343,Flat Rack,40ft,Port of New York,Port of Baltimore,7,2,105.69,CUST-0049,2024-05-21,2024-05-23,open
+CSCU7069317,Tank,40ft,Port of Miami,Port of Charleston,10,7,225.6,CUST-0031,2024-12-21,2024-12-28,open
+CSCU9598757,Tank,20ft,Port of Houston,Port of New York,5,8,129.23,CUST-0030,2024-12-20,2024-12-28,open
+CSCU1887318,Flat Rack,40ft,Port of Charleston,Port of Seattle,5,3,157.97,CUST-0034,2024-11-23,2024-11-26,open
+CSCU4074382,Dry Van,45ft,Port of New York,Port of Oakland,10,6,274.49,CUST-0053,2024-12-16,2024-12-22,open
+CSCU7082121,Dry Van,45ft,Port of Miami,Port of Seattle,7,5,102.58,CUST-0034,2024-05-24,2024-05-29,open
+CSCU7912120,Flat Rack,20ft,Port of Long Beach,Port of Savannah,7,6,200.68,CUST-0054,2024-04-06,2024-04-12,open
+CSCU9818990,Tank,45ft,Port of Oakland,Port of Long Beach,14,2,192.1,CUST-0005,2024-02-29,2024-03-02,open
+CSCU9044980,Flat Rack,40ft,Port of Seattle,Port of New York,14,7,277.95,CUST-0039,2024-09-24,2024-10-01,open
+CSCU3889156,Flat Rack,20ft,Port of Long Beach,Port of Savannah,7,3,271.36,CUST-0010,2024-12-18,2024-12-21,open
+CSCU4520547,Reefer,20ft,Port of Charleston,Port of Long Beach,5,36,103.76,CUST-0031,2024-08-08,2024-09-13,open
+CSCU1550170,Tank,45ft,Port of Los Angeles,Port of Baltimore,5,2,281.71,CUST-0003,2024-02-03,2024-02-05,open
+CSCU2619061,Dry Van,45ft,Port of Savannah,Port of Miami,7,21,136.96,CUST-0023,2024-01-15,2024-02-05,open
+CSCU5653591,Tank,40ft,Port of Seattle,Port of New York,7,2,200.98,CUST-0005,2024-02-20,2024-02-22,open
+CSCU9872441,Reefer,45ft,Port of Savannah,Port of Houston,7,2,280.33,CUST-0035,2024-01-03,2024-01-05,open
+CSCU4590582,Tank,45ft,Port of Baltimore,Port of Seattle,7,5,187.93,CUST-0007,2024-04-02,2024-04-07,open
+CSCU8115080,Reefer,45ft,Port of Savannah,Port of Charleston,5,3,252.28,CUST-0021,2024-03-04,2024-03-07,open
+CSCU9318412,Flat Rack,45ft,Port of Houston,Port of Oakland,5,5,116.45,CUST-0032,2024-02-29,2024-03-05,open
+CSCU6234607,Open Top,20ft,Port of Oakland,Port of Charleston,10,9,296.99,CUST-0028,2024-04-06,2024-04-15,open
+CSCU7164643,Reefer,20ft,Port of Baltimore,Port of Long Beach,14,17,187.61,CUST-0043,2024-12-12,2024-12-29,open
+CSCU7623837,Open Top,45ft,Port of Miami,Port of Long Beach,7,5,112.94,CUST-0013,2024-06-22,2024-06-27,open
+CSCU3059607,Reefer,40ft,Port of Baltimore,Port of Houston,10,7,251.26,CUST-0052,2024-11-25,2024-12-02,open
+CSCU8983040,Tank,40ft,Port of Baltimore,Port of Oakland,10,18,129.47,CUST-0030,2024-02-25,2024-03-14,open
+CSCU9342869,Reefer,45ft,Port of New York,Port of Los Angeles,5,2,247.56,CUST-0054,2024-02-04,2024-02-06,open
+CSCU4004727,Open Top,45ft,Port of Seattle,Port of New York,10,10,224.39,CUST-0007,2024-02-09,2024-02-19,open
+CSCU9257536,Open Top,20ft,Port of Houston,Port of Baltimore,14,10,200.96,CUST-0035,2024-06-24,2024-07-04,open
+CSCU1296459,Dry Van,40ft,Port of Long Beach,Port of Charleston,14,2,162.91,CUST-0025,2024-08-14,2024-08-16,open
+CSCU3967372,Tank,45ft,Port of Houston,Port of New York,14,3,186.14,CUST-0020,2024-07-18,2024-07-21,open
+CSCU9230125,Tank,45ft,Port of Oakland,Port of Miami,14,8,195.18,CUST-0055,2024-03-21,2024-03-29,open
+CSCU5418967,Open Top,45ft,Port of Charleston,Port of Miami,10,20,253.29,CUST-0019,2024-06-13,2024-07-03,open
+CSCU1756962,Reefer,40ft,Port of Seattle,Port of Miami,5,5,253.04,CUST-0041,2024-06-23,2024-06-28,open
+CSCU6790539,Flat Rack,40ft,Port of Seattle,Port of Los Angeles,7,7,149.52,CUST-0042,2024-06-08,2024-06-15,open
+CSCU2098911,Flat Rack,20ft,Port of Seattle,Port of New York,5,5,207.68,CUST-0003,2024-08-23,2024-08-28,open
+CSCU9636236,Open Top,40ft,Port of Los Angeles,Port of Baltimore,5,2,297.15,CUST-0025,2024-10-19,2024-10-21,open
+CSCU9193298,Dry Van,45ft,Port of Savannah,Port of Seattle,14,11,200.55,CUST-0049,2024-12-07,2024-12-18,open
+CSCU6025126,Flat Rack,40ft,Port of Savannah,Port of Baltimore,5,2,268.08,CUST-0035,2024-04-19,2024-04-21,open
+CSCU5988206,Tank,40ft,Port of Savannah,Port of Miami,5,4,243.54,CUST-0038,2024-02-18,2024-02-22,open
+CSCU2128599,Tank,45ft,Port of Baltimore,Port of Charleston,7,6,169.46,CUST-0005,2024-11-29,2024-12-05,open
+CSCU6031638,Open Top,45ft,Port of Oakland,Port of Seattle,7,7,182.86,CUST-0017,2024-11-15,2024-11-22,open
+CSCU4029979,Dry Van,45ft,Port of Oakland,Port of New York,14,12,142.59,CUST-0053,2024-08-27,2024-09-08,open
+CSCU9937547,Tank,40ft,Port of Miami,Port of Los Angeles,7,18,172.85,CUST-0010,2024-05-03,2024-05-21,open
+CSCU6037789,Open Top,40ft,Port of Seattle,Port of Long Beach,7,4,269.19,CUST-0018,2024-05-26,2024-05-30,open
+CSCU4961601,Open Top,20ft,Port of Long Beach,Port of New York,7,6,105.54,CUST-0052,2024-06-07,2024-06-13,open
+CSCU8317096,Open Top,45ft,Port of Los Angeles,Port of Savannah,7,4,154.54,CUST-0002,2024-05-12,2024-05-16,open
+CSCU3952542,Dry Van,45ft,Port of Baltimore,Port of Los Angeles,5,2,271.92,CUST-0006,2024-06-09,2024-06-11,open
+CSCU7828441,Flat Rack,45ft,Port of Long Beach,Port of Charleston,7,6,147.21,CUST-0037,2024-09-13,2024-09-19,open
+CSCU9812402,Flat Rack,40ft,Port of Long Beach,Port of Savannah,5,5,254.64,CUST-0021,2024-06-17,2024-06-22,open
+CSCU4958384,Open Top,20ft,Port of New York,Port of Long Beach,7,6,142.82,CUST-0018,2024-08-13,2024-08-19,open
+CSCU1938272,Open Top,45ft,Port of Seattle,Port of Long Beach,10,6,209.15,CUST-0031,2024-12-15,2024-12-21,open
+CSCU3431212,Flat Rack,40ft,Port of Seattle,Port of Houston,5,33,229.08,CUST-0058,2024-11-06,2024-12-09,open
+CSCU5021093,Flat Rack,45ft,Port of Charleston,Port of Houston,10,5,280.63,CUST-0044,2024-03-03,2024-03-08,open
+CSCU8422287,Open Top,20ft,Port of Charleston,Port of Houston,10,4,118.05,CUST-0053,2024-04-30,2024-05-04,open
+CSCU8362611,Flat Rack,45ft,Port of Charleston,Port of Los Angeles,10,8,273.29,CUST-0053,2024-09-08,2024-09-16,open
+CSCU6582152,Open Top,20ft,Port of New York,Port of Houston,5,5,170.37,CUST-0039,2024-10-07,2024-10-12,open
+CSCU1458871,Dry Van,45ft,Port of New York,Port of Baltimore,7,6,100.62,CUST-0013,2024-11-17,2024-11-23,open
+CSCU2379624,Dry Van,20ft,Port of Savannah,Port of Oakland,7,4,269.39,CUST-0044,2024-07-29,2024-08-02,open
+CSCU8574743,Open Top,45ft,Port of New York,Port of Houston,7,3,237.49,CUST-0053,2024-06-16,2024-06-19,open
+CSCU2415979,Open Top,40ft,Port of New York,Port of Charleston,14,2,288.95,CUST-0057,2024-10-19,2024-10-21,open
+CSCU4837070,Dry Van,40ft,Port of Savannah,Port of Houston,7,3,109.96,CUST-0040,2024-08-07,2024-08-10,open
+CSCU2494200,Flat Rack,20ft,Port of Miami,Port of Long Beach,5,5,243.72,CUST-0028,2024-08-20,2024-08-25,open
+CSCU2988307,Reefer,45ft,Port of Savannah,Port of Savannah,10,24,157.59,CUST-0032,2024-07-14,2024-08-07,open
+CSCU4466272,Tank,20ft,Port of Houston,Port of Savannah,14,46,136.07,CUST-0051,2024-03-15,2024-04-30,open
+CSCU4950793,Tank,40ft,Port of Savannah,Port of Seattle,14,13,117.15,CUST-0031,2024-03-09,2024-03-22,open
+CSCU7669861,Reefer,45ft,Port of Charleston,Port of Charleston,10,25,114.61,CUST-0036,2024-01-31,2024-02-25,open
+CSCU4939985,Open Top,40ft,Port of Miami,Port of Miami,5,5,101.07,CUST-0033,2024-11-13,2024-11-18,open
+CSCU7222689,Reefer,45ft,Port of Los Angeles,Port of Miami,7,5,152.06,CUST-0033,2024-09-09,2024-09-14,open
+CSCU3213242,Dry Van,40ft,Port of Oakland,Port of Charleston,7,5,152.08,CUST-0021,2024-01-23,2024-01-28,open
+CSCU5714408,Flat Rack,40ft,Port of Houston,Port of Houston,10,9,203.39,CUST-0028,2024-03-25,2024-04-03,open
+CSCU3537801,Tank,45ft,Port of Baltimore,Port of Los Angeles,7,46,129.72,CUST-0015,2024-04-03,2024-05-19,open
+CSCU3743996,Open Top,40ft,Port of Long Beach,Port of Baltimore,5,5,188.3,CUST-0046,2024-10-14,2024-10-19,open
+CSCU2887283,Reefer,20ft,Port of Seattle,Port of Long Beach,7,4,273.63,CUST-0012,2024-03-27,2024-03-31,open
+CSCU4563416,Tank,20ft,Port of Oakland,Port of Miami,7,7,183.28,CUST-0005,2024-05-06,2024-05-13,open
+CSCU2582179,Flat Rack,20ft,Port of Houston,Port of Long Beach,14,4,174.71,CUST-0060,2024-02-24,2024-02-28,open
+CSCU1484433,Dry Van,40ft,Port of Baltimore,Port of Baltimore,10,9,218.84,CUST-0001,2024-06-17,2024-06-26,open
+CSCU6451176,Tank,20ft,Port of Savannah,Port of Los Angeles,10,8,164.63,CUST-0004,2024-02-06,2024-02-14,open
+CSCU2552748,Open Top,40ft,Port of New York,Port of Savannah,14,27,117.84,CUST-0055,2024-04-16,2024-05-13,open
+CSCU7751088,Flat Rack,45ft,Port of New York,Port of Long Beach,10,4,198.17,CUST-0028,2024-06-07,2024-06-11,open
+CSCU7023763,Dry Van,40ft,Port of Oakland,Port of Savannah,14,11,189.09,CUST-0025,2024-08-31,2024-09-11,open
+CSCU8097946,Dry Van,40ft,Port of Seattle,Port of Miami,7,51,186.82,CUST-0028,2024-02-17,2024-04-08,open
+CSCU8776656,Reefer,45ft,Port of New York,Port of Baltimore,5,5,158.14,CUST-0028,2024-02-10,2024-02-15,open
+CSCU6039762,Reefer,20ft,Port of Houston,Port of Savannah,14,15,159.1,CUST-0004,2024-10-09,2024-10-24,open
+CSCU9613666,Dry Van,45ft,Port of Charleston,Port of Charleston,5,4,192.93,CUST-0047,2024-10-18,2024-10-22,open
+CSCU5275844,Tank,20ft,Port of Oakland,Port of Los Angeles,5,5,248.1,CUST-0030,2024-04-01,2024-04-06,open
+CSCU1759315,Dry Van,40ft,Port of Houston,Port of Seattle,14,7,251.47,CUST-0029,2024-11-15,2024-11-22,open
+CSCU4140556,Reefer,20ft,Port of Long Beach,Port of Miami,10,2,274.32,CUST-0007,2024-08-10,2024-08-12,open
+CSCU7625890,Dry Van,20ft,Port of New York,Port of Baltimore,14,11,238.36,CUST-0056,2024-12-02,2024-12-13,open
+CSCU9165848,Flat Rack,45ft,Port of Miami,Port of Seattle,14,18,260.93,CUST-0006,2024-03-05,2024-03-23,open
+CSCU2877580,Dry Van,45ft,Port of Savannah,Port of Los Angeles,7,7,196.22,CUST-0010,2024-11-28,2024-12-05,open
+CSCU4203013,Dry Van,40ft,Port of Baltimore,Port of New York,14,13,184.38,CUST-0008,2024-03-26,2024-04-08,open
+CSCU8470322,Open Top,40ft,Port of Los Angeles,Port of Baltimore,7,8,140.27,CUST-0037,2024-07-19,2024-07-27,open
+CSCU2722408,Open Top,40ft,Port of Baltimore,Port of Miami,10,9,107.4,CUST-0026,2024-09-05,2024-09-14,open
+CSCU4890733,Dry Van,45ft,Port of Los Angeles,Port of Charleston,10,9,210.65,CUST-0018,2024-11-27,2024-12-06,open
+CSCU2961940,Open Top,45ft,Port of Seattle,Port of Baltimore,14,9,104.16,CUST-0019,2024-04-08,2024-04-17,open
+CSCU4894044,Tank,20ft,Port of Miami,Port of Seattle,14,8,126.23,CUST-0019,2024-12-30,2025-01-07,open
+CSCU7044085,Open Top,20ft,Port of Miami,Port of Savannah,10,4,238.14,CUST-0006,2024-12-07,2024-12-11,open
+CSCU4346789,Reefer,45ft,Port of Baltimore,Port of Long Beach,14,10,288.61,CUST-0032,2024-06-04,2024-06-14,open
+CSCU1789356,Dry Van,40ft,Port of Houston,Port of Seattle,7,34,134.94,CUST-0056,2024-09-14,2024-10-18,open
+CSCU6666248,Open Top,20ft,Port of Miami,Port of Savannah,5,4,212.4,CUST-0032,2024-05-12,2024-05-16,open
+CSCU1783099,Tank,40ft,Port of New York,Port of Oakland,5,2,241.28,CUST-0060,2024-08-12,2024-08-14,open
+CSCU2776570,Tank,45ft,Port of Long Beach,Port of Oakland,5,9,201.46,CUST-0011,2024-11-18,2024-11-27,open
+CSCU7067286,Reefer,45ft,Port of Houston,Port of Baltimore,14,7,246.51,CUST-0007,2024-03-19,2024-03-26,open
+CSCU3311438,Dry Van,20ft,Port of Baltimore,Port of Charleston,5,3,149.06,CUST-0052,2024-08-30,2024-09-02,open
+CSCU2429986,Flat Rack,40ft,Port of Charleston,Port of Seattle,7,3,130.32,CUST-0049,2024-09-28,2024-10-01,open
+CSCU3315160,Open Top,40ft,Port of Charleston,Port of Baltimore,10,10,288.75,CUST-0029,2024-03-15,2024-03-25,open
+CSCU2167378,Dry Van,40ft,Port of Seattle,Port of Charleston,7,7,186.81,CUST-0026,2024-01-19,2024-01-26,open
+CSCU3532555,Tank,20ft,Port of Oakland,Port of Houston,14,6,180.4,CUST-0044,2024-12-24,2024-12-30,open
+CSCU6262932,Flat Rack,20ft,Port of Houston,Port of Oakland,7,6,240.06,CUST-0029,2024-11-25,2024-12-01,open
+CSCU8417942,Flat Rack,45ft,Port of Charleston,Port of Savannah,10,4,116.86,CUST-0035,2024-06-20,2024-06-24,open
+CSCU9732032,Tank,40ft,Port of Savannah,Port of Long Beach,10,11,204.27,CUST-0049,2024-11-21,2024-12-02,open
+CSCU5340101,Reefer,40ft,Port of Charleston,Port of Oakland,5,4,246.4,CUST-0054,2024-07-09,2024-07-13,open
+CSCU3077237,Dry Van,45ft,Port of Long Beach,Port of Baltimore,10,5,214.49,CUST-0001,2024-08-20,2024-08-25,open
+CSCU9947098,Tank,20ft,Port of Seattle,Port of Houston,10,8,233.38,CUST-0053,2024-10-20,2024-10-28,open
+CSCU9718559,Reefer,20ft,Port of Seattle,Port of Oakland,7,19,264.57,CUST-0024,2024-08-20,2024-09-08,open
+CSCU8141928,Open Top,20ft,Port of Long Beach,Port of Los Angeles,14,7,277.7,CUST-0031,2024-04-19,2024-04-26,open
+CSCU9829103,Open Top,45ft,Port of Oakland,Port of Oakland,14,9,274.4,CUST-0038,2024-09-12,2024-09-21,open
+CSCU9213136,Open Top,20ft,Port of New York,Port of Oakland,7,6,196.95,CUST-0030,2024-03-07,2024-03-13,open
+CSCU9877514,Dry Van,45ft,Port of Savannah,Port of Baltimore,14,3,106.52,CUST-0011,2024-10-13,2024-10-16,open
+CSCU7855503,Dry Van,20ft,Port of Seattle,Port of Miami,10,7,108.06,CUST-0010,2024-03-01,2024-03-08,open
+CSCU6087859,Flat Rack,40ft,Port of Los Angeles,Port of New York,7,4,256.76,CUST-0027,2024-01-25,2024-01-29,open
+CSCU5756043,Reefer,20ft,Port of Baltimore,Port of Los Angeles,5,4,209.51,CUST-0005,2024-01-23,2024-01-27,open
+CSCU8589583,Flat Rack,40ft,Port of Baltimore,Port of Miami,7,5,252.39,CUST-0033,2024-11-21,2024-11-26,open
+CSCU8534223,Reefer,45ft,Port of Seattle,Port of Long Beach,14,2,177.45,CUST-0058,2024-07-21,2024-07-23,open
+CSCU8433920,Flat Rack,45ft,Port of Long Beach,Port of New York,5,2,214.4,CUST-0051,2024-12-28,2024-12-30,open
+CSCU2428614,Reefer,45ft,Port of Oakland,Port of Miami,5,2,291.46,CUST-0034,2024-04-06,2024-04-08,open
+CSCU3018016,Tank,20ft,Port of Los Angeles,Port of Houston,7,6,149.06,CUST-0046,2024-10-23,2024-10-29,open
+CSCU6375942,Open Top,45ft,Port of Los Angeles,Port of Baltimore,5,63,167.99,CUST-0012,2024-07-31,2024-10-02,open
+CSCU6324793,Open Top,40ft,Port of Long Beach,Port of Long Beach,5,18,208.36,CUST-0019,2024-03-14,2024-04-01,open
+CSCU2503717,Reefer,40ft,Port of Charleston,Port of New York,5,33,222.9,CUST-0021,2024-04-02,2024-05-05,open
+CSCU6000018,Open Top,20ft,Port of Seattle,Port of New York,14,3,278.6,CUST-0017,2024-07-11,2024-07-14,open
+CSCU1870370,Reefer,20ft,Port of Miami,Port of Miami,7,2,198.6,CUST-0049,2024-09-15,2024-09-17,open
+CSCU5517895,Dry Van,40ft,Port of Baltimore,Port of Oakland,14,2,113.09,CUST-0002,2024-07-27,2024-07-29,open
+CSCU5515751,Tank,45ft,Port of Long Beach,Port of Savannah,7,18,160.92,CUST-0027,2024-08-16,2024-09-03,open
+CSCU9395862,Reefer,20ft,Port of Seattle,Port of Oakland,7,6,256.4,CUST-0035,2024-08-04,2024-08-10,open
