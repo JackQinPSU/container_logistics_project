@@ -1,11 +1,14 @@
 """
-Palantir AIP client.
+Palantir AIP client using foundry-platform-sdk.
 Reads config from backend/.env (or environment variables).
 """
 
 import os
+import json
 import warnings
 import httpx
+import foundry_sdk
+from foundry_sdk import UserTokenAuth
 from dotenv import load_dotenv
 from pathlib import Path
 
@@ -15,82 +18,71 @@ HOST        = os.environ.get("PALANTIR_HOST", "").rstrip("/")
 TOKEN       = os.environ.get("PALANTIR_TOKEN", "")
 ONTOLOGY    = os.environ.get("PALANTIR_ONTOLOGY", "")
 OBJ_TYPE    = os.environ.get("AIP_OBJECT_TYPE", "")
-FUNCTION_RID = os.environ.get("AIP_FUNCTION_RID", "")
-
-if HOST and not HOST.startswith("http"):
-    HOST = f"https://{HOST}"
-
-ONTOLOGY_BASE = f"{HOST}/api/v2/ontologies/{ONTOLOGY}"
-LOGIC_BASE    = f"{HOST}/api/v2/aipLogic/functions"
 
 _missing = [k for k, v in {
     "PALANTIR_HOST": HOST,
     "PALANTIR_TOKEN": TOKEN,
-    "PALANTIR_ONTOLOGY": ONTOLOGY,
-    "AIP_FUNCTION_RID": FUNCTION_RID,
 }.items() if not v]
 
 if _missing:
     warnings.warn(f"AIP not fully configured — missing: {', '.join(_missing)}", stacklevel=1)
 
+_client = None
 
-def _headers():
-    return {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
+def _get_client() -> foundry_sdk.FoundryClient:
+    global _client
+    if _client is None:
+        _client = foundry_sdk.FoundryClient(
+            auth=UserTokenAuth(token=TOKEN),
+            hostname=HOST,
+        )
+    return _client
 
 
 def get_aip_anomalies() -> list[dict]:
-    """Fetch anomaly objects from the Foundry ontology."""
-    if _missing:
-        raise RuntimeError(f"AIP not configured — missing: {', '.join(_missing)}")
-    url = f"{ONTOLOGY_BASE}/objects/{OBJ_TYPE}/search"
+    """Fetch anomaly objects from the Foundry ontology via raw REST."""
+    if HOST and not HOST.startswith("http"):
+        base = f"https://{HOST}"
+    else:
+        base = HOST
+    url = f"{base}/api/v2/ontologies/{ONTOLOGY}/objects/{OBJ_TYPE}/search"
+    headers = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
     payload = {
-        "where": {"type": "gt", "field": "overageDays", "value": 0},
-        "orderBy": {"fields": [{"field": "accruedCost", "direction": "DESC"}]},
+        "where": {"type": "eq", "field": "is_anomaly", "value": True},
+        "orderBy": {"fields": [{"field": "overage_days", "direction": "DESC"}]},
         "pageSize": 200,
     }
-    resp = httpx.post(url, headers=_headers(), json=payload, timeout=15)
+    resp = httpx.post(url, headers=headers, json=payload, timeout=15)
+    print(f"[AIP anomalies] {resp.status_code}: {resp.text[:200]}")
     resp.raise_for_status()
     return resp.json().get("data", [])
 
 
 def get_aip_suggestion(record: dict) -> dict:
     """
-    Call ContainerDisputeAdvisor AIP Logic function.
-    Returns dict with: recommended_action, confidence, reasoning, draft_notice
+    Call ContainerDisputeAdvisor via the Foundry SDK.
+    Input param: containerRecord (primary key = equipment_id)
+    Output: JSON string with recommended_action, confidence, reasoning, draft_notice
     """
-    if _missing:
-        raise RuntimeError(f"AIP not configured — missing: {', '.join(_missing)}")
+    client = _get_client()
+    print(f"[AIP] calling containerDisputeAdvisor with containerRecord={record['equipment_id']}")
 
-    url = f"{LOGIC_BASE}/{FUNCTION_RID}/execute"
-    payload = {
-        "parameters": {
-            "equipmentId":       record["equipment_id"],
-            "equipmentType":     record["equipment_type"],
-            "size":              record["size"],
-            "customerId":        record["customer_id"],
-            "pickupLocation":    record["pickup_location"],
-            "returnLocation":    record["return_location"],
-            "contractFreeDays":  record["contract_free_days"],
-            "actualDwellDays":   record["actual_dwell_days"],
-            "dailyRateUsd":      record["daily_rate_usd"],
-            "overageDays":       record["overage_days"],
-            "accruedCost":       record["accrued_cost"],
-        }
-    }
-    resp = httpx.post(url, headers=_headers(), json=payload, timeout=30)
-    resp.raise_for_status()
+    response = client.ontologies.Query.execute(
+        ONTOLOGY,
+        "containerDisputeAdvisor",
+        parameters={"containerRecord": record["equipment_id"]},
+    )
 
-    # AIP Logic returns the function output under "result"
-    result = resp.json().get("result", {})
+    print(f"[AIP] raw response: {response}")
 
-    # The function returns a JSON string or object — handle both
-    import json
-    if isinstance(result, str):
-        result = json.loads(result)
+    # Output is a String — parse it as JSON
+    output = response.value if hasattr(response, "value") else response
+    if isinstance(output, str):
+        output = json.loads(output, strict=False)
 
     return {
-        "recommended_action": result.get("recommended_action", ""),
-        "confidence":         result.get("confidence", ""),
-        "reasoning":          result.get("reasoning", ""),
-        "draft_notice":       result.get("draft_notice", ""),
+        "recommended_action": output.get("recommended_action", ""),
+        "confidence":         output.get("confidence", ""),
+        "reasoning":          output.get("reasoning", ""),
+        "draft_notice":       output.get("draft_notice", ""),
     }

@@ -54,8 +54,8 @@ export default function DetailPanel({ record: r, onClose, onActionDone }: Props)
     try {
       const result = await fetchSuggestion(r.equipment_id)
       setSuggestion(result)
-    } catch {
-      setAipError('Could not reach AIP. Check that AIP_FUNCTION_RID is set and the token is valid.')
+    } catch (e: any) {
+      setAipError(e?.message ?? 'Could not reach AIP.')
     } finally {
       setLoadingAip(false)
     }

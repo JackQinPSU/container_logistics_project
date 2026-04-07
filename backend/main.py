@@ -56,6 +56,7 @@ def get_aip_suggestion(equipment_id: str):
     try:
         return aip_client.get_aip_suggestion(record)
     except Exception as e:
+        print(f"[AIP ERROR] {e}")
         raise HTTPException(status_code=502, detail=f"AIP error: {e}")
 
 @app.post("/records/{equipment_id}/action")
