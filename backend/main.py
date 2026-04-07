@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from models import Summary, ActionRequest
 import data_loader
+import aip_client
 
 app = FastAPI(title="COSCO Anomaly Console")
 
@@ -36,6 +37,26 @@ def get_summary():
         total_accrued_cost=round(sum(costs), 2),
         highest_cost_overage=round(max(costs, default=0), 2),
     )
+
+@app.get("/aip/anomalies")
+def get_aip_anomalies():
+    """Pull anomaly records directly from Palantir AIP ontology."""
+    try:
+        return aip_client.get_aip_anomalies()
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"AIP error: {e}")
+
+@app.get("/aip/suggest/{equipment_id}")
+def get_aip_suggestion(equipment_id: str):
+    """Call ContainerDisputeAdvisor AIP Logic function for a specific container."""
+    records = data_loader.get_all()
+    record = next((r for r in records if r["equipment_id"] == equipment_id), None)
+    if not record:
+        raise HTTPException(status_code=404, detail="Record not found")
+    try:
+        return aip_client.get_aip_suggestion(record)
+    except Exception as e:
+        raise HTTPException(status_code=502, detail=f"AIP error: {e}")
 
 @app.post("/records/{equipment_id}/action")
 def post_action(equipment_id: str, body: ActionRequest):

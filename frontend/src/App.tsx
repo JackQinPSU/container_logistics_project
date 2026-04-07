@@ -7,15 +7,19 @@ import AnomalyTable from './components/AnomalyTable'
 import DetailPanel from './components/DetailPanel'
 
 export default function App() {
-  const [records, setRecords] = useState<ContainerRecord[]>([])
-  const [summary, setSummary] = useState<Summary | null>(null)
+  const [records, setRecords]   = useState<ContainerRecord[]>([])
+  const [summary, setSummary]   = useState<Summary | null>(null)
   const [selected, setSelected] = useState<ContainerRecord | null>(null)
-  const [locFilter, setLocFilter] = useState('')
+  const [locFilter, setLocFilter]   = useState('')
   const [custFilter, setCustFilter] = useState('')
+  const [loading, setLoading] = useState(true)
+  const [error, setError]     = useState<string | null>(null)
 
   useEffect(() => {
-    fetchAnomalies().then(setRecords)
-    fetchSummary().then(setSummary)
+    Promise.all([fetchAnomalies(), fetchSummary()])
+      .then(([recs, sum]) => { setRecords(recs); setSummary(sum) })
+      .catch(() => setError('Could not reach the backend. Make sure the server is running on port 8000.'))
+      .finally(() => setLoading(false))
   }, [])
 
   const locations = useMemo(() => [...new Set(records.map(r => r.pickup_location))].sort(), [records])
@@ -34,7 +38,6 @@ export default function App() {
   return (
     <div style={{ minHeight: '100vh', background: '#030712', color: '#f9fafb', fontFamily: 'system-ui, sans-serif' }}>
       <div style={{ maxWidth: 1400, margin: '0 auto', padding: '24px 32px' }}>
-        {/* Header */}
         <div style={{ marginBottom: 28 }}>
           <div style={{ fontSize: 11, color: '#6b7280', letterSpacing: 2, textTransform: 'uppercase', marginBottom: 4 }}>
             Operations Console
@@ -47,19 +50,35 @@ export default function App() {
           </div>
         </div>
 
-        {summary && <KPICards s={summary} />}
+        {loading && (
+          <div style={{ textAlign: 'center', padding: '80px 0', color: '#6b7280', fontSize: 14 }}>
+            Loading...
+          </div>
+        )}
 
-        <FilterBar
-          locations={locations} customers={customers}
-          locFilter={locFilter} custFilter={custFilter}
-          onLoc={setLocFilter} onCust={setCustFilter}
-        />
+        {error && (
+          <div style={{
+            background: '#1c0a0a', border: '1px solid #7f1d1d', borderRadius: 8,
+            padding: '16px 20px', color: '#f87171', fontSize: 14, marginBottom: 24,
+          }}>
+            {error}
+          </div>
+        )}
 
-        <div style={{ fontSize: 12, color: '#6b7280', marginBottom: 10 }}>
-          Showing {filtered.length} flagged records
-        </div>
-
-        <AnomalyTable records={filtered} onSelect={setSelected} selected={selected} />
+        {!loading && !error && (
+          <>
+            {summary && <KPICards s={summary} />}
+            <FilterBar
+              locations={locations} customers={customers}
+              locFilter={locFilter} custFilter={custFilter}
+              onLoc={setLocFilter} onCust={setCustFilter}
+            />
+            <div style={{ fontSize: 12, color: '#6b7280', marginBottom: 10 }}>
+              Showing {filtered.length} flagged records
+            </div>
+            <AnomalyTable records={filtered} onSelect={setSelected} selected={selected} />
+          </>
+        )}
       </div>
 
       {selected && (

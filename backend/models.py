@@ -1,5 +1,6 @@
 from pydantic import BaseModel
-from typing import Optional
+from typing import Literal, Optional
+
 
 class ContainerRecord(BaseModel):
     equipment_id: str
@@ -14,13 +15,14 @@ class ContainerRecord(BaseModel):
     pickup_date: str
     return_date: str
     status: str
-    # computed
     overage_days: int
     accrued_cost: float
-    action: Optional[str] = None  # "dispute" | "priority_return" | None
+    action: Optional[str] = None
+
 
 class ActionRequest(BaseModel):
-    action: str  # "dispute" | "priority_return"
+    action: Literal["dispute", "priority_return"]
+
 
 class Summary(BaseModel):
     total_records: int
