@@ -1,6 +1,6 @@
 import csv
 import sqlite3
-from datetime import datetime, date
+from datetime import datetime
 from pathlib import Path
 from typing import Dict
 
@@ -8,19 +8,6 @@ DATA_PATH = Path(__file__).parent / "data" / "containers.csv"
 DB_PATH   = Path(__file__).parent / "data" / "actions.db"
 
 _records: Dict[str, dict] = {}
-
-# Normalise messy date strings into ISO format (or return as-is if unrecognised)
-_DATE_FMTS = ["%Y-%m-%d", "%m/%d/%Y", "%d-%b-%Y"]
-
-def _parse_date(raw: str) -> str:
-    if not raw or not raw.strip():
-        return ""
-    for fmt in _DATE_FMTS:
-        try:
-            return datetime.strptime(raw.strip(), fmt).date().isoformat()
-        except ValueError:
-            continue
-    return raw.strip()  # give up, keep as-is
 
 
 def _conn() -> sqlite3.Connection:
@@ -73,8 +60,8 @@ def load():
                 "contract_free_days": contract_free,
                 "actual_dwell_days":  actual_dwell,
                 "daily_rate_usd":     daily_rate,
-                "pickup_date":        _parse_date(row.get("pickup_date", "")),
-                "return_date":        _parse_date(row.get("return_date", "")),
+                "pickup_date":        row.get("pickup_date", ""),
+                "return_date":        row.get("return_date", ""),
                 "overage_days":       overage,
                 "accrued_cost":       cost,
                 "missing_rate":       raw_rate == "",        # flag for pipeline transparency
