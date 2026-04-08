@@ -70,7 +70,7 @@ def get_aip_suggestion(record: dict) -> dict:
     response = client.ontologies.Query.execute(
         ONTOLOGY,
         "containerDisputeAdvisor",
-        parameters={"containerRecord": record["equipment_id"]},
+        parameters={"anomalies": record["equipment_id"]},
     )
 
     print(f"[AIP] raw response: {response}")

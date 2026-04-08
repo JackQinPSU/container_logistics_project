@@ -61,7 +61,7 @@ def get_aip_suggestion(equipment_id: str):
 
 @app.post("/records/{equipment_id}/action")
 def post_action(equipment_id: str, body: ActionRequest):
-    ok = data_loader.set_action(equipment_id, body.action)
+    ok = data_loader.set_action(equipment_id, body.action, body.ai_recommended)
     if not ok:
         raise HTTPException(status_code=404, detail="Record not found")
-    return {"equipment_id": equipment_id, "action": body.action}
+    return {"equipment_id": equipment_id, "action": body.action, "ai_recommended": body.ai_recommended}

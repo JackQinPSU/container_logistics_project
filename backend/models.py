@@ -17,11 +17,16 @@ class ContainerRecord(BaseModel):
     status: str
     overage_days: int
     accrued_cost: float
+    missing_rate: bool = False
+    missing_return: bool = False
     action: Optional[str] = None
+    actioned_at: Optional[str] = None
+    ai_recommended: Optional[str] = None
 
 
 class ActionRequest(BaseModel):
     action: Literal["dispute", "priority_return"]
+    ai_recommended: Optional[str] = None  # what AIP suggested before operator acted
 
 
 class Summary(BaseModel):

@@ -1,4 +1,4 @@
-import csv, random, uuid
+import csv, random
 from datetime import date, timedelta
 
 random.seed(42)
@@ -13,6 +13,13 @@ EQUIPMENT_TYPES = ["Dry Van", "Reefer", "Flat Rack", "Open Top", "Tank"]
 SIZES = ["20ft", "40ft", "45ft"]
 CUSTOMERS = [f"CUST-{str(i).zfill(4)}" for i in range(1, 61)]
 
+# Intentionally varied date formats to simulate messy real-world ingestion
+DATE_FORMATS = [
+    lambda d: d.isoformat(),            # 2024-03-15
+    lambda d: d.strftime("%m/%d/%Y"),   # 03/15/2024
+    lambda d: d.strftime("%d-%b-%Y"),   # 15-Mar-2024
+]
+
 def random_date(start_year=2024):
     start = date(start_year, 1, 1)
     return start + timedelta(days=random.randint(0, 364))
@@ -25,7 +32,6 @@ for _ in range(800):
     pickup_loc = random.choice(LOCATIONS)
     return_loc = random.choice(LOCATIONS)
     contract_free = random.choice([5, 7, 10, 14])
-    daily_rate = round(random.uniform(100, 300), 2)
     customer = random.choice(CUSTOMERS)
     pickup = random_date()
 
@@ -39,7 +45,33 @@ for _ in range(800):
         actual_dwell = random.randint(2, contract_free)
 
     return_d = pickup + timedelta(days=actual_dwell)
-    status = "open"
+
+    # Status derived from dwell vs contract
+    overage = actual_dwell - contract_free
+    if overage > 14:
+        status = "overdue"
+    elif overage > 0:
+        status = "open"
+    elif random.random() < 0.35:
+        status = "returned"
+    else:
+        status = "open"
+
+    # ~5% missing daily rate (carrier didn't send tariff sheet)
+    if random.random() < 0.05:
+        daily_rate = ""
+    else:
+        daily_rate = round(random.uniform(100, 300), 2)
+
+    # ~8% missing return date (container not yet returned to depot)
+    if random.random() < 0.08:
+        return_date_str = ""
+    else:
+        fmt = random.choice(DATE_FORMATS)
+        return_date_str = fmt(return_d)
+
+    # Pickup date also uses varied formats
+    pickup_fmt = random.choice(DATE_FORMATS)
 
     rows.append({
         "equipment_id": eq_id,
@@ -51,8 +83,8 @@ for _ in range(800):
         "actual_dwell_days": actual_dwell,
         "daily_rate_usd": daily_rate,
         "customer_id": customer,
-        "pickup_date": pickup.isoformat(),
-        "return_date": return_d.isoformat(),
+        "pickup_date": pickup_fmt(pickup),
+        "return_date": return_date_str,
         "status": status,
     })
 
